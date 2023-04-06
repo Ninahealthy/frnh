@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Author() {
   return (
     <>
@@ -12,12 +14,7 @@ export default function Author() {
   </p>*/}
 
         <p>
-          <img
-            src="/nina.webp"
-            alt="Nina Bernard"
-            width={100}
-            height={100}
-          ></img>
+          <Image src="/nina.webp" alt="Nina Bernard" width={100} height={100} />
           <br></br>
           Salut! Je suis Nina Bernard, le visage derrière NinaHealthy.com ! Je
           partage des recettes à base de plantes faciles et accessibles qui sont
