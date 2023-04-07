@@ -2,6 +2,11 @@ import Adunit from "@/components/Adunit";
 import Adunit1 from "@/components/Adunit1";
 import AuthorIcon from "@/components/AuthorIcon";
 import Head from "next/head";
+import Image from "next/image";
+import cookie from "/public/cookies.webp";
+
+const responsive = { width: "370px", height: "auto" };
+
 export default function Coojies() {
   return (
     <>
@@ -20,7 +25,13 @@ export default function Coojies() {
       <AuthorIcon />
 
       <article>
-        <img src="/cookies.webp" alt="cookies" />
+        <Image
+          src={cookie}
+          alt="cookies"
+          priority
+          sizes="100vw"
+          style={responsive}
+        />
         <Adunit />
         <p>
           Si vous recherchez la recette de cookies healthy parfaite, la voici !

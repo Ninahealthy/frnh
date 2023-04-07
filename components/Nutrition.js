@@ -1,20 +1,23 @@
 import Styles from "@/styles/Card.module.css";
 import Image from "next/image";
+import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
+import cookie from "/public/cookies.webp";
+
+const responsive = { width: "100%", height: "auto" };
 
 export default function Nutrition() {
   return (
     <>
       <main className={Styles.main}>
         <item className={Styles.item}>
-          <a href="/Nutrition/flocon-d'avoine-au-four-healthy">
+          <a href="/Nutrition/flocon-avoine-au-four-healthy">
             <card className={Styles.card}>
               <Image
-                src="/flocons-d'avoine-cuits-au-four.webp"
+                src={flocon}
                 alt="flocons d'avoine cuits au four"
-                width={1024}
-                height={1024}
-                layout="responsive"
                 priority
+                sizes="100vw"
+                style={responsive}
               />
               <p>
                 <strong>
@@ -33,11 +36,10 @@ export default function Nutrition() {
           <a href="/Nutrition/cookies-healthy">
             <card className={Styles.card}>
               <Image
-                src="/cookies.webp"
+                src={cookie}
                 alt="cookies"
-                width={1024}
-                height={1024}
-                layout="responsive"
+                style={responsive}
+                sizes="100vw"
               />
               <p>
                 <strong>

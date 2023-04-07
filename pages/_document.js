@@ -6,15 +6,18 @@ export default function Document() {
     <Html lang="fr">
       <Head>
         <Script
+          id="Ad"
           strategy="lazyOnload"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
           crossorigin="anonymous"
         />
         <Script
+          id="Gtag"
           strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-C8757P0MH2"
         />
         <Script
+          id="Analytics"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Follow() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function Follow() {
         <ul>
           <li>
             <a href="https://www.pinterest.fr/INinaBernard/" target="_blank">
-              <img
+              <Image
                 src="/pinterest.svg"
                 alt="pinterest icon"
                 width={50}
@@ -17,7 +19,7 @@ export default function Follow() {
           </li>
           <li>
             <a href="https://www.instagram.com" target="_blank">
-              <img
+              <Image
                 src="/instagram.svg"
                 alt="instagram icon"
                 width={50}
@@ -27,7 +29,7 @@ export default function Follow() {
           </li>
           <li>
             <a href="https://www.youtube.com" target="_blank">
-              <img
+              <Image
                 src="/youtube.svg"
                 alt="youtube icon"
                 width={60}

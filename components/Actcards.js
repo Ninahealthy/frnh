@@ -1,4 +1,4 @@
-import Image from "next/image";
+/*import Image from "next/image";
 import Styles from "@/styles/Card.module.css";
 
 export default function Actcards() {
@@ -41,4 +41,4 @@ export default function Actcards() {
       </main>
     </>
   );
-}
+}*/

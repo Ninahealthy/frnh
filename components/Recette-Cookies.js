@@ -1,4 +1,4 @@
-import Head from "next/head";
+/*import Head from "next/head";
 import Rightbar from "@/components/Rightbar";
 import Leftbar from "@/components/Leftbar";
 export default function Home() {
@@ -96,4 +96,4 @@ export default function Home() {
       </article>
     </>
   );
-}
+}*/

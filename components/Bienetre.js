@@ -1,5 +1,8 @@
 import Styles from "@/styles/Card.module.css";
 import Image from "next/image";
+import woman from "/public/woman.webp";
+
+const responsive = { width: "100%", height: "auto" };
 
 export default function Bienetre() {
   return (
@@ -9,12 +12,11 @@ export default function Bienetre() {
           <a href="/Bien-etre/ameliorer-votre-concentration">
             <card className={Styles.card}>
               <Image
-                src="/woman.webp"
+                src={woman}
                 alt="attractive woman"
-                width={1536}
-                height={1024}
-                layout="responsive"
+                style={responsive}
                 priority
+                sizes="100vw"
               />
               <p>
                 <strong>

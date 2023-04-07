@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Styles from "@/styles/Card.module.css";
+import beautiful from "/public/beautiful_model.webp";
+
+const responsive = { width: "100%", height: "auto" };
 
 export default function Beauty() {
   return (
@@ -9,17 +12,16 @@ export default function Beauty() {
           <a href="/Beauty/marques-de-maquillage-clean">
             <card className={Styles.card}>
               <Image
-                src="/beautiful_model.webp"
-                alt="beautiful_model"
-                width={1024}
-                height={1024}
-                layout="responsive"
+                src={beautiful}
+                alt="beautiful model"
+                style={responsive}
                 priority
+                sizes="100vw"
               />
               <p>
                 <strong>
                   <em>
-                    4 marques de maquillage clean pour les beautés naturelles{" "}
+                    4 marques de maquillage clean pour les beautés naturelles
                   </em>
                 </strong>
                 <br></br>

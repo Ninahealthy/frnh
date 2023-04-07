@@ -9,7 +9,6 @@ import "@/styles/globals.css";
 import Head from "next/head";
 import Actualites from "@/components/Actualites";
 import Consent from "@/components/Consent";
-import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -24,7 +23,6 @@ export default function App({ Component, pageProps }) {
       <Author />
       <Footer />
       <Consent />
-      <Analytics />
     </>
   );
 }
