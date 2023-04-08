@@ -75,8 +75,10 @@ function Beauty() {
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                         "D\xe9couvrez 4 marques de maquillage propres et \xe9thiques qui vont sublimer votre beaut\xe9 naturelle sans compromettre la qualit\xe9 ou la s\xe9curit\xe9. Des produits innovants et respectueux de la peau et de l’environnement \xe0 essayer absolument!...\xa0",
-                                        /*#__PURE__*/ jsx_runtime_.jsx("em", {
-                                            children: "Lire plus"
+                                        /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                                children: "Lire plus"
+                                            })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {})
                                     ]
@@ -112,8 +114,10 @@ function Beauty() {
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                         "D\xe9couvrez les 7 habitudes puissantes des femmes qui vieillissent lentement et qui vous aideront \xe0 pr\xe9server votre sant\xe9, votre beaut\xe9 et votre vitalit\xe9 \xe0 tout \xe2ge....\xa0",
-                                        /*#__PURE__*/ jsx_runtime_.jsx("em", {
-                                            children: "Lire plus"
+                                        /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                            children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                                children: "Lire plus"
+                                            })
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {})
                                     ]

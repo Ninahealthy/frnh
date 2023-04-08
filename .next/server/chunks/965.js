@@ -60,17 +60,22 @@ function Adunit() {
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5675);
 /* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_young_woman_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3515);
 
 
+
+const style = {
+    width: 50,
+    height: 50
+};
 function AuthorIcon() {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("authoricon", {
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                    src: "/nina.webp",
+                    src: _public_young_woman_png__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,
                     alt: "author",
-                    width: 50,
-                    height: 50
+                    style: style
                 }),
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h5", {
                     children: [
@@ -79,7 +84,7 @@ function AuthorIcon() {
                         }),
                         " Nina Bernard ",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                        " Derni\xe8re mise \xe0 jour le, 02 Avril 2023"
+                        " Derni\xe8re mise \xe0 jour le, 08 Avril 2023"
                     ]
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {})

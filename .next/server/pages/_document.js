@@ -60,7 +60,7 @@ function Document() {
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
                         name: "modified",
-                        content: "2023-04-02"
+                        content: "2023-04-08"
                     })
                 ]
             }),

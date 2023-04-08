@@ -29,7 +29,9 @@ export default function Bienetre() {
                 Comment rester concentrée et attentive dans un monde où tout va
                 vite ? Suivez ces 6 conseils pratiques pour développer votre
                 focus et votre sérénité au quotidien....&nbsp;
-                <em>Lire plus</em>
+                <strong>
+                  <em>Lire plus</em>
+                </strong>
                 <br />
               </p>
             </card>

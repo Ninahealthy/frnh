@@ -30,7 +30,9 @@ export default function Beauty() {
                 sublimer votre beauté naturelle sans compromettre la qualité ou
                 la sécurité. Des produits innovants et respectueux de la peau et
                 de l’environnement à essayer absolument!...&nbsp;
-                <em>Lire plus</em>
+                <strong>
+                  <em>Lire plus</em>
+                </strong>
                 <br />
               </p>
             </card>
@@ -57,7 +59,9 @@ export default function Beauty() {
                 Découvrez les 7 habitudes puissantes des femmes qui vieillissent
                 lentement et qui vous aideront à préserver votre santé, votre
                 beauté et votre vitalité à tout âge....&nbsp;
-                <em>Lire plus</em>
+                <strong>
+                  <em>Lire plus</em>
+                </strong>
                 <br />
               </p>
             </card>

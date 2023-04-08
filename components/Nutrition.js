@@ -26,7 +26,9 @@ export default function Nutrition() {
                 <br></br>
                 Voici une recette idéale pour un petit déjeuner healthy, facile
                 à préparer...&nbsp;
-                <em>Lire plus</em>
+                <strong>
+                  <em>Lire plus</em>
+                </strong>
                 <br />
               </p>
             </card>
@@ -48,7 +50,9 @@ export default function Nutrition() {
                 <br></br>
                 Les cookies sont des petits gâteaux moelleux et délicieux qui
                 font le bonheur de tout le monde. Que vous soyez un ex...&nbsp;
-                <em>Lire plus</em>
+                <strong>
+                  <em>Lire plus</em>
+                </strong>
                 <br />
               </p>
             </card>

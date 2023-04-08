@@ -58,8 +58,10 @@ function Bienetre() {
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                     "Comment rester concentr\xe9e et attentive dans un monde o\xf9 tout va vite ? Suivez ces 6 conseils pratiques pour d\xe9velopper votre focus et votre s\xe9r\xe9nit\xe9 au quotidien....\xa0",
-                                    /*#__PURE__*/ jsx_runtime_.jsx("em", {
-                                        children: "Lire plus"
+                                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "Lire plus"
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("br", {})
                                 ]

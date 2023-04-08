@@ -142,9 +142,8 @@ export default function Home() {
           ralentir le processus de vieillissement et profiter pleinement de
           votre féminité à tout âge. N’oubliez pas que le plus important est de
           vous sentir bien dans votre corps et dans votre tête !<br></br>
-          J’espère que cet article vous a plu. N’hésitez pas à me faire part de
-          vos commentaires ou suggestions.<br></br>
-          Je suis toujours à l’écoute pour améliorer mes services. 😊
+          J’espère que cet article vous a plu.<br></br>
+          N’hésitez pas à me faire part de vos commentaires ou suggestions. 😊
         </p>
         <p>
           <strong>Sources:</strong>
