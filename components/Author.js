@@ -1,4 +1,7 @@
 import Image from "next/image";
+import author from "/public/young-woman.png";
+
+const style = { width: 100, height: 100 };
 
 export default function Author() {
   return (
@@ -14,11 +17,11 @@ export default function Author() {
   </p>*/}
 
         <p>
-          <Image src="/nina.webp" alt="Nina Bernard" width={100} height={100} />
+          <Image src={author} alt="Nina Bernard" style={style} />
           <br></br>
-          Salut! Je suis Nina Bernard, le visage derrière NinaHealthy.com ! Je
-          partage des recettes à base de plantes faciles et accessibles qui sont
-          non seulement Healthy mais qui ont également un goût incroyable.
+          Salut! C'est Nina, le visage derrière NinaHealthy.com ! Je partage des
+          recettes à base de plantes faciles et accessibles qui sont non
+          seulement Healthy mais qui ont également un goût incroyable.
           <br></br>
           Suivez-moi sur pinterest pour des idées de repas végétaliens gratuits,
           des recettes et des astuces pour Healthy-girl.

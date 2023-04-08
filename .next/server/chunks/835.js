@@ -1,46 +1,31 @@
+"use strict";
 exports.id = 835;
 exports.ids = [835];
 exports.modules = {
 
-/***/ 1445:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"main": "Card_main__PYxbA",
-	"card": "Card_card__QH1mK",
-	"item": "Card_item__76DXo"
-};
-
-
-/***/ }),
-
 /***/ 7386:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/cookies.caea5fa0.webp","height":1024,"width":1024,"blurDataURL":"data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAQCdASoIAAgAAkA4JYwCdADz22zhQAD++KtHQH6WfSHvZ56te0DG+NLzO3X3CF+3gEqhYborrsYqQ187M0/AJkP4UJcubPUCDLs3G53kAAAA","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/cookies.caea5fa0.webp","height":1024,"width":1024,"blurDataURL":"data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoIAAgAAkA4JYwCdAD0slaVOAAA/vip3BK6R0JWx8oU+k+vbsa9BEfA+OAbVwSNWGo4s2djp5s9NPEt+AAAAA==","blurWidth":8,"blurHeight":8});
 
 /***/ }),
 
 /***/ 9923:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/flocons-d'avoine-cuits-au-four.83fc4e15.webp","height":1024,"width":1024,"blurDataURL":"data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoIAAgAAkA4JZACdAEOurqCAAD+t212TPUbbFKVw3pyYDt87Bo3XRjfxsBWw0xo3tc68g1CPhTIQ/jwP5VCXvIQ5DYX0uXeAxAhlOl75OFCqgAA","blurWidth":8,"blurHeight":8});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/flocons-d'avoine-cuits-au-four.83fc4e15.webp","height":1024,"width":1024,"blurDataURL":"data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoIAAgAAkA4JZgCdAYrxkouFEAAAP4FbVxNB5bEC8I3f7TnvKhV7Phy+7TvbPi4tFvZ2WRXlA4zX5P9oAi4lIm+8hCkB6Ju67agDcV2uti9U01gAAA=","blurWidth":8,"blurHeight":8});
 
 /***/ }),
 
 /***/ 1835:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (/* binding */ Nutrition)
 /* harmony export */ });
@@ -63,8 +48,8 @@ const responsive = {
 };
 function Nutrition() {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
-            className: (_styles_Card_module_css__WEBPACK_IMPORTED_MODULE_4___default().main),
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("group", {
+            className: (_styles_Card_module_css__WEBPACK_IMPORTED_MODULE_4___default().group),
             children: [
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("item", {
                     className: (_styles_Card_module_css__WEBPACK_IMPORTED_MODULE_4___default().item),

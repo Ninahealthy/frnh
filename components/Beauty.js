@@ -1,18 +1,19 @@
 import Image from "next/image";
 import Styles from "@/styles/Card.module.css";
-import beautiful from "/public/beautiful_model.webp";
+import makeup from "/public/makeup.jpg";
+import young from "/public/young-woman.png";
 
 const responsive = { width: "100%", height: "auto" };
 
 export default function Beauty() {
   return (
     <>
-      <main className={Styles.main}>
+      <group className={Styles.group}>
         <item className={Styles.item}>
           <a href="/Beauty/marques-de-maquillage-clean">
             <card className={Styles.card}>
               <Image
-                src={beautiful}
+                src={makeup}
                 alt="beautiful model"
                 style={responsive}
                 priority
@@ -35,7 +36,34 @@ export default function Beauty() {
             </card>
           </a>
         </item>
-      </main>
+        <item className={Styles.item}>
+          <a href="/Beauty/secrets-des-femmes-qui-restent-jeunes">
+            <card className={Styles.card}>
+              <Image
+                src={young}
+                alt="beautiful young woman"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>
+                    Vieillir en beauté:<br></br>Les 7 secrets des femmes qui
+                    restent jeunes
+                  </em>
+                </strong>
+                <br></br>
+                Découvrez les 7 habitudes puissantes des femmes qui vieillissent
+                lentement et qui vous aideront à préserver votre santé, votre
+                beauté et votre vitalité à tout âge....&nbsp;
+                <em>Lire plus</em>
+                <br />
+              </p>
+            </card>
+          </a>
+        </item>
+      </group>
     </>
   );
 }

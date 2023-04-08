@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/cQNRJKyLOGBBYwzV807AL/_buildManifest.js",
-    "static/cQNRJKyLOGBBYwzV807AL/_ssgManifest.js"
+    "static/rG1KzvxGqnMf8QdaqrgXc/_buildManifest.js",
+    "static/rG1KzvxGqnMf8QdaqrgXc/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,37 +14,46 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/index-0a7cf2e516da45ca.js"
+      "static/css/6647f53659a0edb8.css",
+      "static/chunks/pages/index-be7c9cb13706f04f.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/About-me-546e4bdc9f774aa2.js"
+      "static/chunks/pages/About-me-11b770ca5b1b2953.js"
     ],
     "/Beauty": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Beauty-f37e29f528d8a793.js"
+      "static/css/6647f53659a0edb8.css",
+      "static/chunks/pages/Beauty-3edef1fc84fb96b6.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Beauty/marques-de-maquillage-clean-92540c3449216106.js"
+      "static/chunks/pages/Beauty/marques-de-maquillage-clean-735a077b2142149f.js"
+    ],
+    "/Beauty/secrets-des-femmes-qui-restent-jeunes": [
+      "static/chunks/webpack-c4acd79e87956a0e.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-164f91e3b1a225f8.js",
+      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes-6dbb5bf0c5bcb6f9.js"
     ],
     "/Bien-etre": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Bien-etre-14626884878ff25f.js"
+      "static/css/6647f53659a0edb8.css",
+      "static/chunks/pages/Bien-etre-705adb8e8490f67b.js"
     ],
     "/Bien-etre/ameliorer-votre-concentration": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-9f4dee646a6f73ff.js"
+      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-e912a024b6eeb7ab.js"
     ],
     "/Contact": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -69,19 +78,20 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition-76ff26fcf5016ae9.js"
+      "static/css/6647f53659a0edb8.css",
+      "static/chunks/pages/Nutrition-e86b1b0386187313.js"
     ],
     "/Nutrition/cookies-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition/cookies-healthy-dd41b918548f9b77.js"
+      "static/chunks/pages/Nutrition/cookies-healthy-338fdcff349a2985.js"
     ],
     "/Nutrition/flocon-avoine-au-four-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-5a7410d1ac8c01d1.js"
+      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-f8e9da06903fccd9.js"
     ],
     "/Privacy-policy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -99,8 +109,8 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/8c8177a193487de2.css",
-      "static/chunks/pages/_app-b33acac86c951def.js"
+      "static/css/9c39ceb5dbaef62b.css",
+      "static/chunks/pages/_app-6e515f369f1f0599.js"
     ],
     "/_error": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -112,7 +122,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/search-f12ff54eefd379c0.js"
+      "static/chunks/pages/search-f1e061c7031ddc12.js"
     ]
   },
   "ampFirstPages": []

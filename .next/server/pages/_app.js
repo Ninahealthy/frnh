@@ -23,7 +23,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4497:
+/***/ 9653:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37,50 +37,19 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./components/Adunit.js
-var Adunit = __webpack_require__(5032);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-// EXTERNAL MODULE: ./node_modules/next/script.js
-var script = __webpack_require__(4298);
-;// CONCATENATED MODULE: ./components/Nativead.js
-
-
-
-function NativeAd() {
-    useEffect(()=>{
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }, []);
-    return /*#__PURE__*/ _jsx(_Fragment, {
-        children: /*#__PURE__*/ _jsx("adunit", {
-            children: /*#__PURE__*/ _jsxs("nativead", {
-                children: [
-                    /*#__PURE__*/ _jsx(Script, {
-                        strategy: "lazyOnload",
-                        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778",
-                        crossorigin: "anonymous"
-                    }),
-                    /*#__PURE__*/ _jsx("ins", {
-                        className: "adsbygoogle",
-                        style: {
-                            display: "block"
-                        },
-                        "data-ad-format": "autorelaxed",
-                        "data-ad-client": "ca-pub-2087636695455778",
-                        "data-ad-slot": "7547473441"
-                    })
-                ]
-            })
-        })
-    });
-}
-
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+// EXTERNAL MODULE: ./public/young-woman.png
+var young_woman = __webpack_require__(3515);
 ;// CONCATENATED MODULE: ./components/Author.js
 
 
+
+const style = {
+    width: 100,
+    height: 100
+};
 function Author() {
     return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("author", {
@@ -91,13 +60,12 @@ function Author() {
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                            src: "/nina.webp",
+                            src: young_woman/* default */.Z,
                             alt: "Nina Bernard",
-                            width: 100,
-                            height: 100
+                            style: style
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                        "Salut! Je suis Nina Bernard, le visage derri\xe8re NinaHealthy.com ! Je partage des recettes \xe0 base de plantes faciles et accessibles qui sont non seulement Healthy mais qui ont \xe9galement un go\xfbt incroyable.",
+                        "Salut! C'est Nina, le visage derri\xe8re NinaHealthy.com ! Je partage des recettes \xe0 base de plantes faciles et accessibles qui sont non seulement Healthy mais qui ont \xe9galement un go\xfbt incroyable.",
                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                         "Suivez-moi sur pinterest pour des id\xe9es de repas v\xe9g\xe9taliens gratuits, des recettes et des astuces pour Healthy-girl."
                     ]
@@ -207,6 +175,8 @@ function Footer() {
     });
 }
 
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./styles/Header.module.css
 var Header_module = __webpack_require__(4666);
 var Header_module_default = /*#__PURE__*/__webpack_require__.n(Header_module);
@@ -350,63 +320,6 @@ var globals = __webpack_require__(6764);
 // EXTERNAL MODULE: external "next/head"
 var head_ = __webpack_require__(968);
 var head_default = /*#__PURE__*/__webpack_require__.n(head_);
-// EXTERNAL MODULE: ./components/Nutrition.js
-var components_Nutrition = __webpack_require__(1835);
-;// CONCATENATED MODULE: ./components/LatestBlogpost.js
-
-function Follow() {
-    return /*#__PURE__*/ _jsxs(_Fragment, {
-        children: [
-            /*#__PURE__*/ _jsx("h1", {
-                children: "Latest Blog Post"
-            }),
-            /*#__PURE__*/ _jsxs("ul", {
-                children: [
-                    /*#__PURE__*/ _jsx("li", {
-                        children: /*#__PURE__*/ _jsx("a", {})
-                    }),
-                    /*#__PURE__*/ _jsx("li", {
-                        children: /*#__PURE__*/ _jsx("a", {})
-                    }),
-                    /*#__PURE__*/ _jsx("li", {
-                        children: /*#__PURE__*/ _jsx("a", {})
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./components/Beauty.js + 1 modules
-var components_Beauty = __webpack_require__(8187);
-;// CONCATENATED MODULE: ./components/Actualites.js
-
-
-
-
-
-function Actualites() {
-    return /*#__PURE__*/ _jsx(_Fragment, {
-        children: /*#__PURE__*/ _jsxs("actualites", {
-            children: [
-                /*#__PURE__*/ _jsx("h1", {
-                    children: "Latest "
-                }),
-                /*#__PURE__*/ _jsx(LatestBlogpost, {}),
-                /*#__PURE__*/ _jsx("h1", {
-                    children: "Nutrition"
-                }),
-                /*#__PURE__*/ _jsx(Nutrition, {}),
-                /*#__PURE__*/ _jsx("h1", {
-                    children: "Fitness"
-                }),
-                /*#__PURE__*/ _jsx(Fitness, {}),
-                /*#__PURE__*/ _jsx(Beauty, {})
-            ]
-        })
-    });
-}
-
 ;// CONCATENATED MODULE: ./components/Consent.js
 
 
@@ -442,10 +355,6 @@ function Consent() {
 }
 
 ;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-
 
 
 
@@ -578,14 +487,6 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 6405:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("react-dom");
-
-/***/ }),
-
 /***/ 997:
 /***/ ((module) => {
 
@@ -601,7 +502,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,636,675,298,32,835,187], () => (__webpack_exec__(4497)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,636,675,515], () => (__webpack_exec__(9653)));
 module.exports = __webpack_exports__;
 
 })();

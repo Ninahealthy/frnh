@@ -1,13 +1,13 @@
 import Styles from "@/styles/Card.module.css";
 import Image from "next/image";
-import woman from "/public/woman.webp";
+import woman from "/public/beautiful_model.webp";
 
 const responsive = { width: "100%", height: "auto" };
 
 export default function Bienetre() {
   return (
     <>
-      <main className={Styles.main}>
+      <group className={Styles.group}>
         <item className={Styles.item}>
           <a href="/Bien-etre/ameliorer-votre-concentration">
             <card className={Styles.card}>
@@ -35,7 +35,7 @@ export default function Bienetre() {
             </card>
           </a>
         </item>
-      </main>
+      </group>
     </>
   );
 }

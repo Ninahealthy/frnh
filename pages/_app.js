@@ -1,13 +1,9 @@
-import Actcards from "@/components/Actcards";
-import Adunit from "@/components/Adunit";
-import NativeAd from "@/components/Nativead";
 import Author from "@/components/Author";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import SearchForm from "@/components/Search";
 import "@/styles/globals.css";
 import Head from "next/head";
-import Actualites from "@/components/Actualites";
 import Consent from "@/components/Consent";
 
 export default function App({ Component, pageProps }) {

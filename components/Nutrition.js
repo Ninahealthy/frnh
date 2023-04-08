@@ -8,7 +8,7 @@ const responsive = { width: "100%", height: "auto" };
 export default function Nutrition() {
   return (
     <>
-      <main className={Styles.main}>
+      <group className={Styles.group}>
         <item className={Styles.item}>
           <a href="/Nutrition/flocon-avoine-au-four-healthy">
             <card className={Styles.card}>
@@ -54,7 +54,7 @@ export default function Nutrition() {
             </card>
           </a>
         </item>
-      </main>
+      </group>
     </>
   );
 }
