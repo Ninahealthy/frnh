@@ -27,6 +27,7 @@ function Adunit() {
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ad", {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {
+                        id: "Adunit",
                         strategy: "lazyOnload",
                         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778",
                         crossorigin: "anonymous"
@@ -86,8 +87,7 @@ function AuthorIcon() {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                         " Derni\xe8re mise \xe0 jour le, 08 Avril 2023"
                     ]
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {})
+                })
             ]
         })
     });

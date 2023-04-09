@@ -13,8 +13,6 @@ export default function AuthorIcon() {
           <text>By</text> Nina Bernard <br></br> Dernière mise à jour le, 08
           Avril 2023
         </h5>
-
-        <h5></h5>
       </authoricon>
     </>
   );

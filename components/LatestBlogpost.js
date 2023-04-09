@@ -1,4 +1,4 @@
-export default function Follow() {
+export default function Latest() {
   return (
     <>
       <h1>Latest Blog Post</h1>

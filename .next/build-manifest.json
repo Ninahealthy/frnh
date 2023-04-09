@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/IP5_z8ZeDWGWihkAL44cy/_buildManifest.js",
-    "static/IP5_z8ZeDWGWihkAL44cy/_ssgManifest.js"
+    "static/jeO78Rlh1D93jWxkY9pvt/_buildManifest.js",
+    "static/jeO78Rlh1D93jWxkY9pvt/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,8 +14,8 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/6647f53659a0edb8.css",
-      "static/chunks/pages/index-a2fea5a3bf2b42d9.js"
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/index-b567c67b3773369b.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -27,33 +27,45 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/6647f53659a0edb8.css",
-      "static/chunks/pages/Beauty-c05407865996875d.js"
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/Beauty-c1f33390be2ed3bc.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Beauty/marques-de-maquillage-clean-0f40ca11a8bf4c95.js"
+      "static/chunks/pages/Beauty/marques-de-maquillage-clean-c1946925f95cb752.js"
+    ],
+    "/Beauty/meilleurs-produits-pour-cheveux-boucles": [
+      "static/chunks/webpack-c4acd79e87956a0e.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-164f91e3b1a225f8.js",
+      "static/chunks/pages/Beauty/meilleurs-produits-pour-cheveux-boucles-c311b98f4643e7b7.js"
+    ],
+    "/Beauty/meilleurs-shampoings-clarifiants": [
+      "static/chunks/webpack-c4acd79e87956a0e.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-164f91e3b1a225f8.js",
+      "static/chunks/pages/Beauty/meilleurs-shampoings-clarifiants-88dbde0d238aee3b.js"
     ],
     "/Beauty/secrets-des-femmes-qui-restent-jeunes": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes-8bd8fe49433af672.js"
+      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes-0449a96906f07131.js"
     ],
     "/Bien-etre": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/6647f53659a0edb8.css",
+      "static/css/ba21975ac55f0cd2.css",
       "static/chunks/pages/Bien-etre-f84053c95c86ac45.js"
     ],
     "/Bien-etre/ameliorer-votre-concentration": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-a635269e7bc26fda.js"
+      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-fdac846f1d7aaa22.js"
     ],
     "/Contact": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -78,20 +90,20 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/6647f53659a0edb8.css",
+      "static/css/ba21975ac55f0cd2.css",
       "static/chunks/pages/Nutrition-912d9deff89bde9d.js"
     ],
     "/Nutrition/cookies-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition/cookies-healthy-684fbe8d71968cff.js"
+      "static/chunks/pages/Nutrition/cookies-healthy-762c5779158f8198.js"
     ],
     "/Nutrition/flocon-avoine-au-four-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-42f1583c9f739cc1.js"
+      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-010f07d3035471af.js"
     ],
     "/Privacy-policy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -109,7 +121,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/9c39ceb5dbaef62b.css",
+      "static/css/e6ec928bf2d67f7f.css",
       "static/chunks/pages/_app-6e515f369f1f0599.js"
     ],
     "/_error": [

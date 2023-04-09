@@ -10,6 +10,7 @@ export default function Adunit() {
       <adunit>
         <ad>
           <Script
+            id="Adunit"
             strategy="lazyOnload"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
             crossorigin="anonymous"
