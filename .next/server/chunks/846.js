@@ -70,6 +70,7 @@ function Beauty() {
                                         src: shampoo,
                                         alt: "curly-hair",
                                         style: responsive,
+                                        sizes: "100vw",
                                         priority: true
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
@@ -97,7 +98,8 @@ function Beauty() {
                                         src: curly_hair,
                                         alt: "curly-hair",
                                         style: responsive,
-                                        priority: true
+                                        priority: true,
+                                        sizes: "100vw"
                                     }),
                                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
                                         children: [

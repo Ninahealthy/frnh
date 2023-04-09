@@ -18,6 +18,7 @@ export default function Beauty() {
                 src={shampo}
                 alt="curly-hair"
                 style={responsive}
+                sizes="100vw"
                 priority
               />
               <p>
@@ -36,7 +37,13 @@ export default function Beauty() {
         <item className={Styles.item}>
           <a href="/Beauty/meilleurs-produits-pour-cheveux-boucles">
             <card className={Styles.card}>
-              <Image src={curly} alt="curly-hair" style={responsive} priority />
+              <Image
+                src={curly}
+                alt="curly-hair"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
               <p>
                 <strong>
                   <em>

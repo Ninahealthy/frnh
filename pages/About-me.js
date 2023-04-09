@@ -18,10 +18,10 @@ export default function About() {
           Ici, j’écris sur des choses que nous pouvons tous trouver adaptées et
           bénéfiques dans notre propre vie quotidienne. Les choses dont j’écris
           sont généralement légères et agréables à lire. J’aime écrire sur la
-          beauté, la vie, le drame, l’école et tout ce qui suscite mon intérêt.
-          J’espère que ce blog deviendra une plateforme inspirante pour de
-          nombreuses autres adolescentes et femmes qui aiment aussi se
-          développer et améliorer leur beauté intérieure et extérieure.
+          beauté, la vie, le drame et tout ce qui suscite mon intérêt. J’espère
+          que ce blog deviendra une plateforme inspirante pour de nombreuses
+          autres adolescentes et femmes qui aiment aussi se développer et
+          améliorer leur beauté intérieure et extérieure.
         </p>
         {/* <p>
           Nina Bernard , est une nutrisionisite basée à Paris, spécialisée dans

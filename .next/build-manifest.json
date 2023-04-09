@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/jeO78Rlh1D93jWxkY9pvt/_buildManifest.js",
-    "static/jeO78Rlh1D93jWxkY9pvt/_ssgManifest.js"
+    "static/BHD0LQj1o68mZb-mHtf-t/_buildManifest.js",
+    "static/BHD0LQj1o68mZb-mHtf-t/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,20 +15,20 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/index-b567c67b3773369b.js"
+      "static/chunks/pages/index-6e46823319c5b64a.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/About-me-11b770ca5b1b2953.js"
+      "static/chunks/pages/About-me-45f9da57a6fa919f.js"
     ],
     "/Beauty": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty-c1f33390be2ed3bc.js"
+      "static/chunks/pages/Beauty-1f0c4a2e9faa1df8.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -97,13 +97,13 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition/cookies-healthy-762c5779158f8198.js"
+      "static/chunks/pages/Nutrition/cookies-healthy-8958df9afeac796a.js"
     ],
     "/Nutrition/flocon-avoine-au-four-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-010f07d3035471af.js"
+      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-6f46a8fe7923cfda.js"
     ],
     "/Privacy-policy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -122,7 +122,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/e6ec928bf2d67f7f.css",
-      "static/chunks/pages/_app-6e515f369f1f0599.js"
+      "static/chunks/pages/_app-3f74fac1c6910756.js"
     ],
     "/_error": [
       "static/chunks/webpack-c4acd79e87956a0e.js",

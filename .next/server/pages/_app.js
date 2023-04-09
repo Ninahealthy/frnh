@@ -62,10 +62,11 @@ function Author() {
                         /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: young_woman/* default */.Z,
                             alt: "Nina Bernard",
-                            style: style
+                            style: style,
+                            sizes: "30vw"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                        "Salut! C'est Nina, le visage derri\xe8re NinaHealthy.com ! Je partage des recettes \xe0 base de plantes faciles et accessibles qui sont non seulement Healthy mais qui ont \xe9galement un go\xfbt incroyable.",
+                        "Salut! C'est Nina, le visage derri\xe8re NinaHealthy.com ! Ici Je partage des choses que nous pouvons tous trouver adapt\xe9es et b\xe9n\xe9fiques dans notre propre vie quotidienne. Les choses dont j’\xe9cris sont g\xe9n\xe9ralement l\xe9g\xe8res et agr\xe9ables \xe0 lire. J’aime \xe9crire sur la beaut\xe9, la vie, le drame, et tout ce qui suscite mon int\xe9r\xeat.",
                         /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                         "Suivez-moi sur pinterest pour des id\xe9es de repas v\xe9g\xe9taliens gratuits, des recettes et des astuces pour Healthy-girl."
                     ]

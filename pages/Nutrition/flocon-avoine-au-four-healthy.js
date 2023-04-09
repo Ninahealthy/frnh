@@ -20,12 +20,15 @@ export default function Flocons() {
           facile à préparer et pleine de saveurs irrésistibles."
         />
       </Head>
-      <h1>
-        <em>
-          Idée petit déjeuner healthy:<br></br>Flocons d'avoine cuits au four à
-          la banane.
-        </em>
-      </h1>
+      <article>
+        <h1>
+          <em>
+            Idée petit déjeuner healthy:<br></br>Flocons d'avoine cuits au four
+            à la banane.
+          </em>
+        </h1>
+      </article>
+
       <AuthorIcon />
       <article>
         <Image

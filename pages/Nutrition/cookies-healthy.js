@@ -17,11 +17,14 @@ export default function Coojies() {
           content="Découvrez mon guide complet sur la recette de cookies aux flocons d'avoine avec des étapes faciles à suivre pour préparer des cookies délicieux chez vous. Variations de recettes incluant des pépites de chocolat, des noix et raisins secs, des épices et même une option végétalienne disponibles."
         />
       </Head>
-      <h1>
-        <em>
-          Healthy et Moelleux:<br></br>Recette de Cookies aux flocons d'avoine
-        </em>
-      </h1>
+      <article>
+        <h1>
+          <em>
+            Healthy et Moelleux:<br></br>Recette de Cookies aux flocons d'avoine
+          </em>
+        </h1>
+      </article>
+
       <AuthorIcon />
 
       <article>

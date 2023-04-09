@@ -17,11 +17,13 @@ export default function Author() {
   </p>*/}
 
         <p>
-          <Image src={author} alt="Nina Bernard" style={style} />
+          <Image src={author} alt="Nina Bernard" style={style} sizes="30vw" />
           <br></br>
-          Salut! C'est Nina, le visage derrière NinaHealthy.com ! Je partage des
-          recettes à base de plantes faciles et accessibles qui sont non
-          seulement Healthy mais qui ont également un goût incroyable.
+          Salut! C'est Nina, le visage derrière NinaHealthy.com ! Ici Je partage
+          des choses que nous pouvons tous trouver adaptées et bénéfiques dans
+          notre propre vie quotidienne. Les choses dont j’écris sont
+          généralement légères et agréables à lire. J’aime écrire sur la beauté,
+          la vie, le drame, et tout ce qui suscite mon intérêt.
           <br></br>
           Suivez-moi sur pinterest pour des idées de repas végétaliens gratuits,
           des recettes et des astuces pour Healthy-girl.
