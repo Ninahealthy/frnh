@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/1YxnDYOo4pD7BEKUMXsD9/_buildManifest.js",
-    "static/1YxnDYOo4pD7BEKUMXsD9/_ssgManifest.js"
+    "static/iM0FWNqeKdh2_-23mv-nK/_buildManifest.js",
+    "static/iM0FWNqeKdh2_-23mv-nK/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,7 +15,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/index-89f232f2e157d482.js"
+      "static/chunks/pages/index-7667b501a3be9d51.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -59,13 +59,19 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre-dc2a3008bd7d9e74.js"
+      "static/chunks/pages/Bien-etre-9d8f3c0ff61fc092.js"
     ],
     "/Bien-etre/ameliorer-votre-concentration": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-fdac846f1d7aaa22.js"
+    ],
+    "/Bien-etre/astuces-decoration-terrasse-exterieur": [
+      "static/chunks/webpack-c4acd79e87956a0e.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-164f91e3b1a225f8.js",
+      "static/chunks/pages/Bien-etre/astuces-decoration-terrasse-exterieur-16eaf30f2d610e25.js"
     ],
     "/Bien-etre/idees-pour-amenager-un-petit-jardin": [
       "static/chunks/webpack-c4acd79e87956a0e.js",

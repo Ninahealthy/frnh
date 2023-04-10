@@ -1,9 +1,9 @@
 "use strict";
-exports.id = 628;
-exports.ids = [628];
+exports.id = 308;
+exports.ids = [308];
 exports.modules = {
 
-/***/ 2628:
+/***/ 7308:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -24,7 +24,10 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const beautiful_model = ({"src":"/_next/static/media/beautiful_model.ca4fc3bd.webp","height":1024,"width":1024,"blurDataURL":"data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoIAAgAAkA4JQBOgB6UmPVUAP7tKDOJkRSWuV7nwSWX1B25P67Njp+TgrJ63neZh2LNZ8fmFkHEhmI5ia6NxRTWxZebgviXk3gAAA==","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/idees-jardin.jpg
 /* harmony default export */ const idees_jardin = ({"src":"/_next/static/media/idees-jardin.eafc0bb6.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAL/xAAgEAACAQQBBQAAAAAAAAAAAAABAgADBAURBhUjMTJR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAaEQACAgMAAAAAAAAAAAAAAAAAAQMEETFB/9oADAMBAAIRAxEAPwCavK8piiqdbsaiW+u2KyuXUD12F8n6TERJsViRrYDeOH//2Q==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/terrasse.jpg
+/* harmony default export */ const terrasse = ({"src":"/_next/static/media/terrasse.ef79e2a5.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAdEAABBAMBAQAAAAAAAAAAAAABAAIDBAURMRMh/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABwRAAIBBQEAAAAAAAAAAAAAAAECAAMEESIxkf/aAAwDAQACEQMRAD8Ar5i5VyNanDlbDWwPc14hbuL1BHCegb18REQbhSGGx9jKGCvJ/9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./components/Bienetre.js
+
 
 
 
@@ -39,6 +42,31 @@ function Bienetre() {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("group", {
             className: (Card_module_default()).group,
             children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("item", {
+                    className: (Card_module_default()).item,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "/Bien-etre/astuces-decoration-terrasse-exterieur",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("card", {
+                            className: (Card_module_default()).card,
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: terrasse,
+                                    alt: "terrasse ext\xe9rieur",
+                                    style: responsive,
+                                    priority: true,
+                                    sizes: "100vw"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "5 Astuces pour la d\xe9coration de votre terrasse ext\xe9rieur"
+                                        })
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                }),
                 /*#__PURE__*/ jsx_runtime_.jsx("item", {
                     className: (Card_module_default()).item,
                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
