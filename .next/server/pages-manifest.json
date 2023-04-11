@@ -1,12 +1,13 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/About-me": "pages/About-me.html",
   "/Beauty": "pages/Beauty.html",
   "/Beauty/marques-de-maquillage-clean": "pages/Beauty/marques-de-maquillage-clean.html",
   "/Beauty/meilleurs-produits-pour-cheveux-boucles": "pages/Beauty/meilleurs-produits-pour-cheveux-boucles.html",
   "/Beauty/meilleurs-shampoings-clarifiants": "pages/Beauty/meilleurs-shampoings-clarifiants.html",
+  "/Beauty/meilleurs-stylos-de-blanchiment": "pages/Beauty/meilleurs-stylos-de-blanchiment.html",
   "/Beauty/secrets-des-femmes-qui-restent-jeunes": "pages/Beauty/secrets-des-femmes-qui-restent-jeunes.html",
   "/Bien-etre/ameliorer-votre-concentration": "pages/Bien-etre/ameliorer-votre-concentration.html",
   "/Bien-etre/astuces-decoration-terrasse-exterieur": "pages/Bien-etre/astuces-decoration-terrasse-exterieur.html",
@@ -19,9 +20,9 @@
   "/Nutrition/flocon-avoine-au-four-healthy": "pages/Nutrition/flocon-avoine-au-four-healthy.html",
   "/Nutrition": "pages/Nutrition.html",
   "/Privacy-policy": "pages/Privacy-policy.html",
+  "/Terms-and-conditions": "pages/Terms-and-conditions.html",
   "/api/hello": "pages/api/hello.js",
   "/": "pages/index.html",
   "/search": "pages/search.html",
-  "/Terms-and-conditions": "pages/Terms-and-conditions.html",
   "/404": "pages/404.html"
 }

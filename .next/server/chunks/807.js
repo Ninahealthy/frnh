@@ -1,5 +1,5 @@
-exports.id = 846;
-exports.ids = [846];
+exports.id = 807;
+exports.ids = [807];
 exports.modules = {
 
 /***/ 1445:
@@ -15,7 +15,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 1846:
+/***/ 2807:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -41,7 +41,10 @@ var young_woman = __webpack_require__(3515);
 /* harmony default export */ const curly_hair = ({"src":"/_next/static/media/curly-hair.ec3eae6c.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAeEAACAQMFAAAAAAAAAAAAAAAAAgEDBAYREiJxsf/EABUBAQEAAAAAAAAAAAAAAAAAAAQF/8QAGBEBAQADAAAAAAAAAAAAAAAAAQACERL/2gAMAwEAAhEDEQA/AI7GUrUrhbiF0XcsMzRx68kAAMzbUR5C/9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/shampoo.jpg
 /* harmony default export */ const shampoo = ({"src":"/_next/static/media/shampoo.b7b6ea4b.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAcEAACAwADAQAAAAAAAAAAAAABAgADEQQSkbH/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACA3H/2gAMAwEAAhEDEQA/AKEcAra1bVGyp6FC4c6Np0/PIiIxIiujU7P/2Q==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/stylos-blanchiment.jpg
+/* harmony default export */ const stylos_blanchiment = ({"src":"/_next/static/media/stylos-blanchiment.ec360837.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAfEAABBAICAwAAAAAAAAAAAAABAAIDBAUREjEyQYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EABgRAAMBAQAAAAAAAAAAAAAAAAABIQIR/9oADAMBAAIRAxEAPwCGXuxXcJG1txhkqARzzV5jx5jyaN+h0ND6iIh8rKeXEf/Z","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./components/Beauty.js
+
 
 
 
@@ -59,6 +62,34 @@ function Beauty() {
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("group", {
                 className: (Card_module_default()).group,
                 children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("item", {
+                        className: (Card_module_default()).item,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/Beauty/meilleurs-stylos-de-blanchiment",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("card", {
+                                className: (Card_module_default()).card,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                        src: stylos_blanchiment,
+                                        alt: "stylos de blanchiment des dents",
+                                        style: responsive,
+                                        sizes: "100vw",
+                                        priority: true
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                        children: [
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                                    children: "7 meilleurs stylos de blanchiment des dents de 2023"
+                                                })
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {})
+                                        ]
+                                    })
+                                ]
+                            })
+                        })
+                    }),
                     /*#__PURE__*/ jsx_runtime_.jsx("item", {
                         className: (Card_module_default()).item,
                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {

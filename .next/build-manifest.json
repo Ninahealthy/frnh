@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/iM0FWNqeKdh2_-23mv-nK/_buildManifest.js",
-    "static/iM0FWNqeKdh2_-23mv-nK/_ssgManifest.js"
+    "static/MUZekhSG_U4CdgBD8HRlZ/_buildManifest.js",
+    "static/MUZekhSG_U4CdgBD8HRlZ/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,7 +15,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/index-7667b501a3be9d51.js"
+      "static/chunks/pages/index-04993816c206d585.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -28,7 +28,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty-1f0c4a2e9faa1df8.js"
+      "static/chunks/pages/Beauty-6292647c0a58fd53.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -47,6 +47,12 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/chunks/pages/Beauty/meilleurs-shampoings-clarifiants-88dbde0d238aee3b.js"
+    ],
+    "/Beauty/meilleurs-stylos-de-blanchiment": [
+      "static/chunks/webpack-c4acd79e87956a0e.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-164f91e3b1a225f8.js",
+      "static/chunks/pages/Beauty/meilleurs-stylos-de-blanchiment-7105404c6638f2ef.js"
     ],
     "/Beauty/secrets-des-femmes-qui-restent-jeunes": [
       "static/chunks/webpack-c4acd79e87956a0e.js",

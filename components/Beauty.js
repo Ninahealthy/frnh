@@ -4,6 +4,7 @@ import makeup from "/public/makeup.jpg";
 import young from "/public/young-woman.png";
 import curly from "public/curly-hair.jpg";
 import shampo from "public/shampoo.jpg";
+import stylo from "public/stylos-blanchiment.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -11,6 +12,26 @@ export default function Beauty() {
   return (
     <>
       <group className={Styles.group}>
+        <item className={Styles.item}>
+          <a href="/Beauty/meilleurs-stylos-de-blanchiment">
+            <card className={Styles.card}>
+              <Image
+                src={stylo}
+                alt="stylos de blanchiment des dents"
+                style={responsive}
+                sizes="100vw"
+                priority
+              />
+              <p>
+                <strong>
+                  <em>7 meilleurs stylos de blanchiment des dents de 2023</em>
+                </strong>
+
+                <br />
+              </p>
+            </card>
+          </a>
+        </item>
         <item className={Styles.item}>
           <a href="/Beauty/meilleurs-shampoings-clarifiants">
             <card className={Styles.card}>
