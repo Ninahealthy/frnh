@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/MUZekhSG_U4CdgBD8HRlZ/_buildManifest.js",
-    "static/MUZekhSG_U4CdgBD8HRlZ/_ssgManifest.js"
+    "static/23OpvfZl0J6ce0He0J38f/_buildManifest.js",
+    "static/23OpvfZl0J6ce0He0J38f/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,8 +14,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/index-04993816c206d585.js"
+      "static/chunks/pages/index-cbf243f7b10f3780.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -27,8 +26,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty-6292647c0a58fd53.js"
+      "static/chunks/pages/Beauty-96e9e4772d67aad2.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -64,8 +62,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre-9d8f3c0ff61fc092.js"
+      "static/chunks/pages/Bien-etre-759b64558969babe.js"
     ],
     "/Bien-etre/ameliorer-votre-concentration": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -108,8 +105,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Nutrition-912d9deff89bde9d.js"
+      "static/chunks/pages/Nutrition-9e4c17884fbe262d.js"
     ],
     "/Nutrition/cookies-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -139,8 +135,8 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/e6ec928bf2d67f7f.css",
-      "static/chunks/pages/_app-3f74fac1c6910756.js"
+      "static/css/66ca3a915d854ca5.css",
+      "static/chunks/pages/_app-36a330bc9d25d4e8.js"
     ],
     "/_error": [
       "static/chunks/webpack-c4acd79e87956a0e.js",

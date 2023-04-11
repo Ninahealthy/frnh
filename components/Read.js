@@ -1,7 +1,9 @@
+//inject blog posts as list inside article
+
 export default function Read() {
   return (
     <>
-      <h1>Read More </h1>
+      <h1>Read Also </h1>
       <ul>
         <li>
           <a></a>

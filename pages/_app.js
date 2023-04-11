@@ -5,6 +5,8 @@ import SearchForm from "@/components/Search";
 import "@/styles/globals.css";
 import Head from "next/head";
 import Consent from "@/components/Consent";
+import Beauty from "@/components/Beauty";
+import Bienetre from "@/components/Bienetre";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -16,6 +18,8 @@ export default function App({ Component, pageProps }) {
       <Header />
 
       <Component {...pageProps} />
+      <Beauty />
+      <Bienetre />
       <Author />
       <Footer />
       <Consent />

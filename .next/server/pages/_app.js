@@ -355,7 +355,13 @@ function Consent() {
     });
 }
 
+// EXTERNAL MODULE: ./components/Beauty.js + 4 modules
+var Beauty = __webpack_require__(2807);
+// EXTERNAL MODULE: ./components/Bienetre.js + 3 modules
+var Bienetre = __webpack_require__(7308);
 ;// CONCATENATED MODULE: ./pages/_app.js
+
+
 
 
 
@@ -383,6 +389,8 @@ function App({ Component , pageProps  }) {
             /*#__PURE__*/ jsx_runtime_.jsx(Component, {
                 ...pageProps
             }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Beauty/* default */.Z, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Bienetre/* default */.Z, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Author, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Footer, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(Consent, {})
@@ -503,7 +511,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [210,636,675,515], () => (__webpack_exec__(9653)));
+var __webpack_exports__ = __webpack_require__.X(0, [210,636,675,515,807,308], () => (__webpack_exec__(9653)));
 module.exports = __webpack_exports__;
 
 })();

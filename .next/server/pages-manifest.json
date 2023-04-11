@@ -1,7 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
   "/About-me": "pages/About-me.html",
   "/Beauty": "pages/Beauty.html",
   "/Beauty/marques-de-maquillage-clean": "pages/Beauty/marques-de-maquillage-clean.html",

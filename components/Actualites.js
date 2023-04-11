@@ -1,14 +1,19 @@
+//make as home page mix of latest (3 latest from each catygory) and read also ( 3 articles as list that can be injected inside blogpost)
+
 import Nutrition from "./Nutrition";
 import Fitness from "./Fitness";
-import LatestBlogpost from "./LatestBlogpost";
+import Latest from "./Latest";
 import Beauty from "./Beauty";
+import Read from "./Read";
 
 export default function Actualites() {
   return (
     <>
       <actualites>
         <h1>Latest </h1>
-        <LatestBlogpost />
+        <Latest />
+        <h1>Read Also</h1>
+        <Read />
         <h1>Nutrition</h1>
         <Nutrition />
         <h1>Fitness</h1>
