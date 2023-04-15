@@ -97,7 +97,6 @@ export default function Tracker() {
           Voici une sélection des meilleurs trackers de fitness en 2023 selon
           différents critères:
         </p>
-        <Adunit />
         <p>
           <strong>
             <em>• Le meilleur rapport qualité-prix:</em>
@@ -160,7 +159,7 @@ export default function Tracker() {
           en mode montre et de 13 heures en mode GPS et d’une résistance à l’eau
           jusqu’à 50 mètres. Il coûte environ 200 euros.
         </p>
-
+        <Adunit />
         <p>
           <strong>
             <em>• Le meilleur pour le cyclisme:</em>

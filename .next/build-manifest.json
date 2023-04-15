@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/8_knDA_JNTKYjLHAkZ7RX/_buildManifest.js",
-    "static/8_knDA_JNTKYjLHAkZ7RX/_ssgManifest.js"
+    "static/eDFvpwoq77bCqtgSq1mTJ/_buildManifest.js",
+    "static/eDFvpwoq77bCqtgSq1mTJ/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -99,7 +99,7 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes-a6e7648e9d2aee16.js"
+      "static/chunks/pages/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes-b63264af5408b3b2.js"
     ],
     "/Important-disclaimer": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
