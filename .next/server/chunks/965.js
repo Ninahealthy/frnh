@@ -85,7 +85,7 @@ function AuthorIcon() {
                         }),
                         " Nina Bernard ",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                        " Derni\xe8re mise \xe0 jour le, 08 Avril 2023"
+                        " Derni\xe8re mise \xe0 jour le, 15 Avril 2023"
                     ]
                 })
             ]

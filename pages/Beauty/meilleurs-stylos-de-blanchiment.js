@@ -120,7 +120,7 @@ export default function Stylos() {
           partager cet article avec vos amies qui veulent avoir un sourire
           éclatant!<br></br>À bientôt ! 😊
         </p>
-        <h4>Voici les réponses aux questions fréquemment posées :</h4>
+        <h3>Voici les réponses aux questions fréquemment posées :</h3>
         <p>
           <strong>
             <em>• Comment fonctionne le stylo pour blanchir les dents?</em>

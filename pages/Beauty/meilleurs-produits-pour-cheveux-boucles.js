@@ -81,7 +81,7 @@ export default function Home() {
           pas à me laisser un commentaire pour partager vos avis et vos astuces
           ! À bientôt ! 😊
         </p>
-        <h4>Voici les réponses aux questions fréquemment posées :</h4>
+        <h3>Voici les réponses aux questions fréquemment posées :</h3>
         <p>
           <strong>
             <em>
