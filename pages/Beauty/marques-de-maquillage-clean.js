@@ -1,6 +1,9 @@
 import Adunit from "@/components/Adunit";
 import Adunit1 from "@/components/Adunit1";
 import AuthorIcon from "@/components/AuthorIcon";
+import Beauty from "@/components/Beauty";
+import Bienetre from "@/components/Bienetre";
+import Fitness from "@/components/Fitness";
 import Head from "next/head";
 export default function Home() {
   return (
@@ -109,6 +112,9 @@ export default function Home() {
           </a>
         </p>
       </article>
+      <Beauty />
+      <Bienetre />
+      <Fitness />
     </>
   );
 }

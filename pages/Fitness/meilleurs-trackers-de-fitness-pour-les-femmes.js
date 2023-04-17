@@ -1,6 +1,9 @@
 import Adunit from "@/components/Adunit";
 import Adunit1 from "@/components/Adunit1";
 import AuthorIcon from "@/components/AuthorIcon";
+import Beauty from "@/components/Beauty";
+import Bienetre from "@/components/Bienetre";
+import Fitness from "@/components/Fitness";
 import Head from "next/head";
 export default function Tracker() {
   return (
@@ -140,7 +143,6 @@ export default function Tracker() {
           lors de vos séances de course ou de vélo. Il suit aussi votre activité
           physique et votre fréquence cardiaque.
         </p>
-
         <p>
           <strong>
             <em>• Le meilleur pour la natation:</em>
@@ -272,6 +274,8 @@ export default function Tracker() {
           </a>
         </p>
       </article>
+      <Bienetre />
+      <Beauty />
     </>
   );
 }

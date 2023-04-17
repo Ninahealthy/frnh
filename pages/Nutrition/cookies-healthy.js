@@ -1,6 +1,9 @@
 import Adunit from "@/components/Adunit";
 import Adunit1 from "@/components/Adunit1";
 import AuthorIcon from "@/components/AuthorIcon";
+import Beauty from "@/components/Beauty";
+import Bienetre from "@/components/Bienetre";
+import Fitness from "@/components/Fitness";
 import Head from "next/head";
 import Image from "next/image";
 import cookie from "/public/cookies.webp";
@@ -197,6 +200,9 @@ export default function Coojies() {
           passe si quelqu'un expérimente !
         </p>
       </article>
+      <Bienetre />
+      <Beauty />
+      <Fitness />
     </>
   );
 }

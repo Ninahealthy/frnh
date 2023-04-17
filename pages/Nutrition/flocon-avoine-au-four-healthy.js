@@ -1,5 +1,8 @@
 import Adunit from "@/components/Adunit";
 import AuthorIcon from "@/components/AuthorIcon";
+import Beauty from "@/components/Beauty";
+import Bienetre from "@/components/Bienetre";
+import Fitness from "@/components/Fitness";
 import Head from "next/head";
 import Image from "next/image";
 import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
@@ -217,6 +220,9 @@ export default function Flocons() {
           verser ensemble le matin et faire cuire.
         </p>
       </article>
+      <Bienetre />
+      <Beauty />
+      <Fitness />
     </>
   );
 }

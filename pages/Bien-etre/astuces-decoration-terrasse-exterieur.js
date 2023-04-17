@@ -1,6 +1,9 @@
 import Adunit from "@/components/Adunit";
 import Adunit1 from "@/components/Adunit1";
 import AuthorIcon from "@/components/AuthorIcon";
+import Beauty from "@/components/Beauty";
+import Bienetre from "@/components/Bienetre";
+import Fitness from "@/components/Fitness";
 import Head from "next/head";
 export default function Terrasse() {
   return (
@@ -72,6 +75,9 @@ export default function Terrasse() {
           espace selon vos goûts et vos besoins.<br></br> Bonne décoration! 😊
         </p>
       </article>
+      <Bienetre />
+      <Beauty />
+      <Fitness />
     </>
   );
 }
