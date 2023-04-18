@@ -1,6 +1,6 @@
 "use strict";
-exports.id = 512;
-exports.ids = [512];
+exports.id = 886;
+exports.ids = [886];
 exports.modules = {
 
 /***/ 7386:
@@ -23,7 +23,7 @@ exports.modules = {
 
 /***/ }),
 
-/***/ 2512:
+/***/ 4886:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -46,7 +46,10 @@ var flocons_d_avoine_cuits_au_four = __webpack_require__(9923);
 var cookies = __webpack_require__(7386);
 ;// CONCATENATED MODULE: ./public/juicers.jpg
 /* harmony default export */ const juicers = ({"src":"/_next/static/media/juicers.0b73283a.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAACAgICAwAAAAAAAAAAAAABAgADBREEYSEiMf/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAGREAAgMBAAAAAAAAAAAAAAAAAQIAESES/9oADAMBAAIRAxEAPwCPiMjfUvERLltral/RnDE+NFQPobe9DruIiTluMURGtjbbP//Z","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/coffee-machines.jpg
+/* harmony default export */ const coffee_machines = ({"src":"/_next/static/media/coffee-machines.1d9fd4a7.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAfEAACAgIBBQAAAAAAAAAAAAABAgMRAAUEBhITITH/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAGBEAAwEBAAAAAAAAAAAAAAAAAQIRABL/2gAMAwEAAhEDEQA/AIXTuvIZJoNgfPyXlkhe+2BCh+u3orYF0RRGMYwrCsaclW5UQb//2Q==","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./components/Nutrition.js
+
 
 
 
@@ -62,6 +65,31 @@ function Nutrition() {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("group", {
             className: (Card_module_default()).group,
             children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("item", {
+                    className: (Card_module_default()).item,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "/Nutrition/les-meilleures-machines-a-cafe-nespresso-en-2023",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("card", {
+                            className: (Card_module_default()).card,
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: coffee_machines,
+                                    alt: "machines a caf\xe9 nespresso",
+                                    priority: true,
+                                    sizes: "100vw",
+                                    style: responsive
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "Top 5 Des Machines \xe0 Caf\xe9 Nespresso Les Plus Pratiques Et Les Plus \xe9conomiques En 2023"
+                                        })
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                }),
                 /*#__PURE__*/ jsx_runtime_.jsx("item", {
                     className: (Card_module_default()).item,
                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {

@@ -3,6 +3,7 @@ import Image from "next/image";
 import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
 import cookie from "/public/cookies.webp";
 import juicers from "public/juicers.jpg";
+import coffee from "public/coffee-machines.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -10,6 +11,27 @@ export default function Nutrition() {
   return (
     <>
       <group className={Styles.group}>
+        <item className={Styles.item}>
+          <a href="/Nutrition/les-meilleures-machines-a-cafe-nespresso-en-2023">
+            <card className={Styles.card}>
+              <Image
+                src={coffee}
+                alt="machines a café nespresso"
+                priority
+                sizes="100vw"
+                style={responsive}
+              />
+              <p>
+                <strong>
+                  <em>
+                    Top 5 Des Machines à Café Nespresso Les Plus Pratiques Et
+                    Les Plus économiques En 2023
+                  </em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
         <item className={Styles.item}>
           <a href="/Nutrition/meilleurs-extracteurs-de-jus-pour-faire-des-boissons-nutritives">
             <card className={Styles.card}>
