@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/k_Zxus8_WW3OA3vrYCP6X/_buildManifest.js",
-    "static/k_Zxus8_WW3OA3vrYCP6X/_ssgManifest.js"
+    "static/pjN39jtPrPcDwhxnWAxTj/_buildManifest.js",
+    "static/pjN39jtPrPcDwhxnWAxTj/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -137,7 +137,7 @@
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/chunks/953-e18ebda3bd38d183.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/velos-stationnaire-les-plus-performants-en-2023-83f3320c1e5f5c73.js"
+      "static/chunks/pages/Fitness/velos-stationnaire-les-plus-performants-en-2023-2fc4044d2c3288b4.js"
     ],
     "/Important-disclaimer": [
       "static/chunks/webpack-c4acd79e87956a0e.js",

@@ -86,30 +86,6 @@ export default function Tracker() {
           qui vous correspond. N’hésitez pas à me laisser un commentaire pour me
           donner votre avis ou me poser vos questions.<br></br>A bientôt! 😊
         </p>
-        <p>
-          <strong>Sources:</strong>
-          <br></br>
-          <a
-            href="https://www.runnersworld.com/gear/a19663621/best-running-shoes/"
-            target={"_blank"}
-          >
-            <strong>• runnersworld.com</strong>
-          </a>
-          <br></br>
-          <a
-            href="https://runnerslab.com/best-running-shoes-men-women/"
-            target={"_blank"}
-          >
-            <strong>• runnerslab.com</strong>
-          </a>
-          <br></br>
-          <a
-            href="https://health.uconn.edu/orthopedics-sports-medicine/2017/08/12/finding-the-right-running-shoe/"
-            target={"_blank"}
-          >
-            <strong>• health.uconn.edu</strong>
-          </a>
-        </p>
       </article>
       <Fitness />
       <Bienetre />
