@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import tracker from "public/tracker-de-fitness.jpg";
 import running from "public/running-shoes-women.jpg";
+import stationary from "public/stationary-bikes.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -10,6 +11,24 @@ export default function Fitness() {
   return (
     <>
       <group className={Styles.group}>
+        <item className={Styles.item}>
+          <a href="/Fitness/velos-stationnaire-les-plus-performants-en-2023">
+            <card className={Styles.card}>
+              <Image
+                src={stationary}
+                alt="vélos stationnaire"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>Les Vélos Stationnaire Les Plus Performants En 2023</em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
         <item className={Styles.item}>
           <a href="/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes">
             <card className={Styles.card}>

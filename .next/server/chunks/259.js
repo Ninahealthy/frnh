@@ -1,9 +1,9 @@
 "use strict";
-exports.id = 543;
-exports.ids = [543];
+exports.id = 259;
+exports.ids = [259];
 exports.modules = {
 
-/***/ 5543:
+/***/ 7259:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -24,7 +24,10 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const tracker_de_fitness = ({"src":"/_next/static/media/tracker-de-fitness.578b0457.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABAwQDAAAAAAAAAAAAAAABAAIDBBETMQUVgf/EABQBAQAAAAAAAAAAAAAAAAAAAAT/xAAZEQACAwEAAAAAAAAAAAAAAAABEQADUSL/2gAMAwEAAhEDEQA/AJlJNDxckDJqx3Zx4jGRSg4zYtABG7Dd9+IiIdoSOxVPTGT/2Q==","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/running-shoes-women.jpg
 /* harmony default export */ const running_shoes_women = ({"src":"/_next/static/media/running-shoes-women.6bebc9b1.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAL/xAAdEAACAgMAAwAAAAAAAAAAAAABAgAEAwUREiEi/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABgRAAMBAQAAAAAAAAAAAAAAAAECEQAx/9oADAMBAAIRAxEAPwCqmu5dr5rugWxkNvOc5SwAro6hV4Se/Pj6B5ERBMiGVRmijh3/2Q==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/stationary-bikes.jpg
+/* harmony default export */ const stationary_bikes = ({"src":"/_next/static/media/stationary-bikes.c5a5457c.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBAURBhIhUoH/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECAyH/2gAMAwEAAhEDEQA/AItA3iSzwve2kMu3AlkaRiMHtz4iIiaZy6bFquI//9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./components/Fitness.js
+
 
 
 
@@ -39,6 +42,31 @@ function Fitness() {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("group", {
             className: (Card_module_default()).group,
             children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("item", {
+                    className: (Card_module_default()).item,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "/Fitness/velos-stationnaire-les-plus-performants-en-2023",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("card", {
+                            className: (Card_module_default()).card,
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: stationary_bikes,
+                                    alt: "v\xe9los stationnaire",
+                                    style: responsive,
+                                    priority: true,
+                                    sizes: "100vw"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "Les V\xe9los Stationnaire Les Plus Performants En 2023"
+                                        })
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                }),
                 /*#__PURE__*/ jsx_runtime_.jsx("item", {
                     className: (Card_module_default()).item,
                     children: /*#__PURE__*/ jsx_runtime_.jsx("a", {

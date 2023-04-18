@@ -4,6 +4,7 @@ import AuthorIcon from "@/components/AuthorIcon";
 import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
+import Nutrition from "@/components/Nutrition";
 import Head from "next/head";
 export default function Tracker() {
   return (
@@ -274,8 +275,10 @@ export default function Tracker() {
           </a>
         </p>
       </article>
+      <Fitness />
       <Bienetre />
       <Beauty />
+      <Nutrition />
     </>
   );
 }

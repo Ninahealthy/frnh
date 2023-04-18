@@ -78,11 +78,8 @@ function Nutrition() {
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("em", {
-                                            children: [
-                                                "Les 5 Meilleurs Extracteurs De Jus Pour Faire Des Boissons Nutritives En 2023",
-                                                " "
-                                            ]
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "Les 5 Meilleurs Extracteurs De Jus Pour Faire Des Boissons Nutritives En 2023"
                                         })
                                     })
                                 })
