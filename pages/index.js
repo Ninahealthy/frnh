@@ -1,5 +1,6 @@
 import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
+import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Nutrition";
 import Head from "next/head";
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Beauty />
         <Bienetre />
         <Nutrition />
+        <Fitness />
       </actualites>
     </>
   );

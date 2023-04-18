@@ -6,6 +6,7 @@ import Fitness from "@/components/Fitness";
 import Head from "next/head";
 import Image from "next/image";
 import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
+import Nutrition from "@/components/Nutrition";
 
 const responsive = { width: "370px", height: "auto" };
 
@@ -220,6 +221,7 @@ export default function Flocons() {
           verser ensemble le matin et faire cuire.
         </p>
       </article>
+      <Nutrition />
       <Bienetre />
       <Beauty />
       <Fitness />

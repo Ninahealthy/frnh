@@ -63,7 +63,7 @@ export default function Tracker() {
           <strong>
             <em>• ASICS GEL-Kayano 29 : </em>
           </strong>
-          CCette chaussure bénéficie du système Dynamic DuoMax qui renforce la
+          Cette chaussure bénéficie du système Dynamic DuoMax qui renforce la
           stabilité du pied sans alourdir la chaussure. Le gel ASICS offre une
           absorption des chocs efficace tandis que la mousse FlyteFoam Propel
           assure une propulsion dynamique.

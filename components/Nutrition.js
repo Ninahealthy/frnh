@@ -2,6 +2,7 @@ import Styles from "@/styles/Card.module.css";
 import Image from "next/image";
 import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
 import cookie from "/public/cookies.webp";
+import juicers from "public/juicers.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -9,6 +10,27 @@ export default function Nutrition() {
   return (
     <>
       <group className={Styles.group}>
+        <item className={Styles.item}>
+          <a href="/Nutrition/meilleurs-extracteurs-de-jus-pour-faire-des-boissons-nutritives">
+            <card className={Styles.card}>
+              <Image
+                src={juicers}
+                alt="extracteurs de jus"
+                priority
+                sizes="100vw"
+                style={responsive}
+              />
+              <p>
+                <strong>
+                  <em>
+                    Les 5 Meilleurs Extracteurs De Jus Pour Faire Des Boissons
+                    Nutritives En 2023
+                  </em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
         <item className={Styles.item}>
           <a href="/Nutrition/flocon-avoine-au-four-healthy">
             <card className={Styles.card}>

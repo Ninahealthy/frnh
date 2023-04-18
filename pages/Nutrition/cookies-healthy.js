@@ -7,6 +7,7 @@ import Fitness from "@/components/Fitness";
 import Head from "next/head";
 import Image from "next/image";
 import cookie from "/public/cookies.webp";
+import Nutrition from "@/components/Nutrition";
 
 const responsive = { width: "370px", height: "auto" };
 
@@ -200,6 +201,7 @@ export default function Coojies() {
           passe si quelqu'un expérimente !
         </p>
       </article>
+      <Nutrition />
       <Bienetre />
       <Beauty />
       <Fitness />
