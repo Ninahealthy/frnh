@@ -4,6 +4,7 @@ import AuthorIcon from "@/components/AuthorIcon";
 import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
+import Nutrition from "@/components/Nutrition";
 import Head from "next/head";
 export default function Jardin() {
   return (
@@ -97,6 +98,7 @@ export default function Jardin() {
       <Bienetre />
       <Beauty />
       <Fitness />
+      <Nutrition />
     </>
   );
 }

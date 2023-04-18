@@ -3,6 +3,7 @@ import Image from "next/image";
 import woman from "/public/beautiful_model.webp";
 import jardin from "public/idees-jardin.jpg";
 import terrasse from "public/terrasse.jpg";
+import purifier from "public/air-purifier.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -10,6 +11,27 @@ export default function Bienetre() {
   return (
     <>
       <group className={Styles.group}>
+        <item className={Styles.item}>
+          <a href="/Bien-etre/astuces-naturelles-pour-purifier-air-de-sa-maison">
+            <card className={Styles.card}>
+              <Image
+                src={purifier}
+                alt="air purifier"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>
+                    Astuces Simples Et Naturelles Pour Purifier l’air de sa
+                    Maison
+                  </em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
         <item className={Styles.item}>
           <a href="/Bien-etre/astuces-decoration-terrasse-exterieur">
             <card className={Styles.card}>

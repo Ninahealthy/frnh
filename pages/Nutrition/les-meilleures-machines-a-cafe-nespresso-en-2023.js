@@ -12,7 +12,7 @@ export default function Extracteurs() {
       <Head>
         <title>
           Top 5 Des Machines à Café Nespresso Les Plus Pratiques Et Les Plus
-          économiques En 2023
+          économiques En 2023 ☕
         </title>
 
         <meta
@@ -25,7 +25,7 @@ export default function Extracteurs() {
         <h1>
           <em>
             Top 5 Des Machines à Café Nespresso Les Plus Pratiques Et Les Plus
-            économiques En 2023
+            économiques En 2023 ☕
           </em>
         </h1>
         <Adunit1 />

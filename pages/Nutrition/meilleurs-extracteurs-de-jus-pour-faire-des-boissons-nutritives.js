@@ -12,7 +12,7 @@ export default function Extracteurs() {
       <Head>
         <title>
           Les 5 Meilleurs Extracteurs De Jus Pour Faire Des Boissons Nutritives
-          En 2023
+          En 2023 🍹
         </title>
 
         <meta
@@ -25,7 +25,7 @@ export default function Extracteurs() {
         <h1>
           <em>
             Les 5 Meilleurs Extracteurs De Jus Pour Faire Des Boissons
-            Nutritives En 2023
+            Nutritives En 2023 🍹
           </em>
         </h1>
         <Adunit1 />
