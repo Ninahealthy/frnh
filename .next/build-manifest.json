@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/CFJg2em8ISfufJnHm5Z7V/_buildManifest.js",
-    "static/CFJg2em8ISfufJnHm5Z7V/_ssgManifest.js"
+    "static/fNxHgSsubHZEHNxR7kEoB/_buildManifest.js",
+    "static/fNxHgSsubHZEHNxR7kEoB/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,8 +14,8 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/index-04993816c206d585.js",
-      "static/css/ba21975ac55f0cd2.css"
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/index-04993816c206d585.js"
     ],
     "/About-me": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -27,79 +27,79 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Beauty-6292647c0a58fd53.js",
-      "static/css/ba21975ac55f0cd2.css"
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/Beauty-6292647c0a58fd53.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/marques-de-maquillage-clean-81fd3809745c6493.js"
+      "static/chunks/pages/Beauty/marques-de-maquillage-clean-b91d61a15b36b1ce.js"
     ],
     "/Beauty/meilleurs-produits-pour-cheveux-boucles": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/meilleurs-produits-pour-cheveux-boucles-bc5540ab52e61acd.js"
+      "static/chunks/pages/Beauty/meilleurs-produits-pour-cheveux-boucles-30e11b9ea479bcbb.js"
     ],
     "/Beauty/meilleurs-shampoings-clarifiants": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/meilleurs-shampoings-clarifiants-2cd9067bfb024f82.js"
+      "static/chunks/pages/Beauty/meilleurs-shampoings-clarifiants-1e37b68909d744ea.js"
     ],
     "/Beauty/meilleurs-stylos-de-blanchiment": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/meilleurs-stylos-de-blanchiment-3bc4c001092fe0b8.js"
+      "static/chunks/pages/Beauty/meilleurs-stylos-de-blanchiment-922a615d435505a5.js"
     ],
     "/Beauty/secrets-des-femmes-qui-restent-jeunes": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes-b5096a892de4b930.js"
+      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes-4afa1784a8bdfe41.js"
     ],
     "/Bien-etre": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Bien-etre-9d8f3c0ff61fc092.js",
-      "static/css/ba21975ac55f0cd2.css"
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/Bien-etre-9d8f3c0ff61fc092.js"
     ],
     "/Bien-etre/ameliorer-votre-concentration": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-3813d3a34db58329.js"
+      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-19008e9f3ea911f7.js"
     ],
     "/Bien-etre/astuces-decoration-terrasse-exterieur": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/astuces-decoration-terrasse-exterieur-3f62d91398051460.js"
+      "static/chunks/pages/Bien-etre/astuces-decoration-terrasse-exterieur-209c4d6e70ccf267.js"
     ],
     "/Bien-etre/idees-pour-amenager-un-petit-jardin": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/idees-pour-amenager-un-petit-jardin-259fdeeed39277d0.js"
+      "static/chunks/pages/Bien-etre/idees-pour-amenager-un-petit-jardin-6b583f1ddd0ceab6.js"
     ],
     "/Contact": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -113,15 +113,23 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness-246ae823dec9c2a4.js"
+      "static/chunks/pages/Fitness-cafd3e0ff6344e48.js"
+    ],
+    "/Fitness/meilleures-chaussures-de-course-pour-le-confort-et-le-soutien": [
+      "static/chunks/webpack-c4acd79e87956a0e.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-164f91e3b1a225f8.js",
+      "static/chunks/729-5aa253d2b940e444.js",
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/Fitness/meilleures-chaussures-de-course-pour-le-confort-et-le-soutien-9f960a51261d3f2f.js"
     ],
     "/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes-bef48aebae212ede.js"
+      "static/chunks/pages/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes-f60c9e4b222e8160.js"
     ],
     "/Important-disclaimer": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
@@ -133,24 +141,24 @@
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Nutrition-912d9deff89bde9d.js",
-      "static/css/ba21975ac55f0cd2.css"
+      "static/css/ba21975ac55f0cd2.css",
+      "static/chunks/pages/Nutrition-912d9deff89bde9d.js"
     ],
     "/Nutrition/cookies-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Nutrition/cookies-healthy-9dfa21e4fe18c214.js"
+      "static/chunks/pages/Nutrition/cookies-healthy-efdef46495820e1e.js"
     ],
     "/Nutrition/flocon-avoine-au-four-healthy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/969-41cfa836d0aa5243.js",
+      "static/chunks/729-5aa253d2b940e444.js",
       "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-f0fb003bcb37b93f.js"
+      "static/chunks/pages/Nutrition/flocon-avoine-au-four-healthy-6e5fbc14096a9426.js"
     ],
     "/Privacy-policy": [
       "static/chunks/webpack-c4acd79e87956a0e.js",
