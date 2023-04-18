@@ -94,45 +94,19 @@ function Footer() {
                     ]
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("social", {
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://www.pinterest.fr/INinaBernard/",
-                                    target: "_blank",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: "/pinterest.svg",
-                                        alt: "pinterest icon",
-                                        width: 50,
-                                        height: 50
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://www.instagram.com",
-                                    target: "_blank",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: "/instagram.svg",
-                                        alt: "instagram icon",
-                                        width: 50,
-                                        height: 50
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://www.youtube.com",
-                                    target: "_blank",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                        src: "/youtube.svg",
-                                        alt: "youtube icon",
-                                        width: 60,
-                                        height: 60
-                                    })
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://www.pinterest.fr/INinaBernard/",
+                                target: "_blank",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/pinterest.svg",
+                                    alt: "pinterest icon",
+                                    width: 50,
+                                    height: 50
                                 })
                             })
-                        ]
+                        })
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("footernav", {

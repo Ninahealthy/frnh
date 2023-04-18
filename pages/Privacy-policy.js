@@ -60,7 +60,7 @@ export default function Privacy() {
         <h2>Contact Us</h2>
         <p>
           If you have any questions or concerns about this privacy policy,
-          please contact us at info@ninahealthy.com
+          please contact us at contact@ninahealthy.com
         </p>
       </article>
     </>

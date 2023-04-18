@@ -24,7 +24,7 @@ export default function Footer() {
                 />
               </a>
             </li>
-            <li>
+            {/*<li>
               <a href="https://www.instagram.com" target="_blank">
                 <img
                   src="/instagram.svg"
@@ -43,7 +43,7 @@ export default function Footer() {
                   height={60}
                 />
               </a>
-            </li>
+  </li>*/}
           </ul>
         </social>
         <footernav>
