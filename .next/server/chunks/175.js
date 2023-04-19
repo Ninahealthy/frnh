@@ -1,9 +1,9 @@
 "use strict";
-exports.id = 64;
-exports.ids = [64];
+exports.id = 175;
+exports.ids = [175];
 exports.modules = {
 
-/***/ 6064:
+/***/ 1175:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -28,7 +28,10 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const terrasse = ({"src":"/_next/static/media/terrasse.ef79e2a5.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAdEAABBAMBAQAAAAAAAAAAAAABAAIDBAURMRMh/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABwRAAIBBQEAAAAAAAAAAAAAAAECAAMEESIxkf/aAAwDAQACEQMRAD8Ar5i5VyNanDlbDWwPc14hbuL1BHCegb18REQbhSGGx9jKGCvJ/9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/air-purifier.jpg
 /* harmony default export */ const air_purifier = ({"src":"/_next/static/media/air-purifier.20e2d618.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAcEAACAgMBAQAAAAAAAAAAAAABAgADBAURE1H/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAAMBAAAAAAAAAAAAAAAAAAABIQL/2gAMAwEAAhEDEQA/AKnvscDXCl8m8OKstvRyVDcrZl4D8PIiJfKgHGf/2Q==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/SMART-goals.jpg
+/* harmony default export */ const SMART_goals = ({"src":"/_next/static/media/SMART-goals.586ace5b.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBREhBhZBUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABoRAAICAwAAAAAAAAAAAAAAAAECABEDBCH/2gAMAwEAAhEDEQA/AI1F2rDo6SKow2qAwxxLTfrw8ZREU8ScJswbLU8//9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./components/Bienetre.js
+
 
 
 
@@ -150,6 +153,31 @@ function Bienetre() {
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("br", {})
                                     ]
+                                })
+                            ]
+                        })
+                    })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("item", {
+                    className: (Card_module_default()).item,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "/Bien-etre/quels-sont-les-cinq-indicateurs-SMART",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("card", {
+                            className: (Card_module_default()).card,
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: SMART_goals,
+                                    alt: "SMART goals",
+                                    style: responsive,
+                                    priority: true,
+                                    sizes: "100vw"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "Comment Les SMART Goals Peuvent Transformer Votre Vie En Mieux"
+                                        })
+                                    })
                                 })
                             ]
                         })

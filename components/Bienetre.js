@@ -4,6 +4,7 @@ import woman from "/public/beautiful_model.webp";
 import jardin from "public/idees-jardin.jpg";
 import terrasse from "public/terrasse.jpg";
 import purifier from "public/air-purifier.jpg";
+import SMART from "public/SMART-goals.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -98,6 +99,27 @@ export default function Bienetre() {
                   <em>Lire plus</em>
                 </strong>
                 <br />
+              </p>
+            </card>
+          </a>
+        </item>
+        <item className={Styles.item}>
+          <a href="/Bien-etre/quels-sont-les-cinq-indicateurs-SMART">
+            <card className={Styles.card}>
+              <Image
+                src={SMART}
+                alt="SMART goals"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>
+                    Comment Les SMART Goals Peuvent Transformer Votre Vie En
+                    Mieux
+                  </em>
+                </strong>
               </p>
             </card>
           </a>

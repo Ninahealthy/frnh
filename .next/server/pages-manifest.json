@@ -1,7 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
   "/About-me": "pages/About-me.html",
   "/Beauty": "pages/Beauty.html",
   "/Beauty/marques-de-maquillage-clean": "pages/Beauty/marques-de-maquillage-clean.html",
@@ -14,6 +14,7 @@
   "/Bien-etre/astuces-naturelles-pour-purifier-air-de-sa-maison": "pages/Bien-etre/astuces-naturelles-pour-purifier-air-de-sa-maison.html",
   "/Bien-etre/idees-pour-amenager-un-petit-jardin": "pages/Bien-etre/idees-pour-amenager-un-petit-jardin.html",
   "/Bien-etre": "pages/Bien-etre.html",
+  "/Bien-etre/quels-sont-les-cinq-indicateurs-SMART": "pages/Bien-etre/quels-sont-les-cinq-indicateurs-SMART.html",
   "/Contact": "pages/Contact.html",
   "/Fitness": "pages/Fitness.html",
   "/Fitness/jeux-de-fitness-en-VR-qui-vont-vous-faire-transpirer-et-sourire": "pages/Fitness/jeux-de-fitness-en-VR-qui-vont-vous-faire-transpirer-et-sourire.html",
