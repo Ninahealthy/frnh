@@ -33,12 +33,6 @@ function Document() {
                         crossorigin: "anonymous"
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {
-                        id: "Adm",
-                        strategy: "lazyOnload",
-                        src: "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
-                        crossorigin: "anonymous"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {
                         id: "Gtag",
                         strategy: "lazyOnload",
                         src: "https://www.googletagmanager.com/gtag/js?id=G-C8757P0MH2"
@@ -53,21 +47,6 @@ function Document() {
           gtag('js', new Date());
         
           gtag('config', 'G-C8757P0MH2');
-          `
-                        }
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {
-                        id: "Adma",
-                        strategy: "lazyOnload",
-                        dangerouslySetInnerHTML: {
-                            __html: `
-            window.googletag = window.googletag || {cmd: []};
-            googletag.cmd.push(function() {
-              googletag.defineSlot('/22182935555/1/header', [728, 90], 'div-gpt-ad-1681864565615-0').addService(googletag.pubads());
-              googletag.pubads().enableSingleRequest();
-              googletag.pubads().collapseEmptyDivs();
-              googletag.enableServices();
-            });
           `
                         }
                     }),
