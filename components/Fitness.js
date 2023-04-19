@@ -4,6 +4,7 @@ import Image from "next/image";
 import tracker from "public/tracker-de-fitness.jpg";
 import running from "public/running-shoes-women.jpg";
 import stationary from "public/stationary-bikes.jpg";
+import vr from "public/fitness-vr.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -64,6 +65,27 @@ export default function Fitness() {
                   <em>
                     5 Chaussures De Course Qui Allient Confort Et Stabilité En
                     2023
+                  </em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
+        <item className={Styles.item}>
+          <a href="/Fitness/jeux-de-fitness-en-VR-qui-vont-vous-faire-transpirer-et-sourire">
+            <card className={Styles.card}>
+              <Image
+                src={vr}
+                alt="man doing fitness with VR"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>
+                    6 Jeux De Fitness En VR Qui Vont Vous Faire Transpirer Et
+                    Sourire
                   </em>
                 </strong>
               </p>

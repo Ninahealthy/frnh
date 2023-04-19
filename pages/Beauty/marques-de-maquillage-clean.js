@@ -41,7 +41,7 @@ export default function Home() {
           botaniques. Ses produits sont sans parabènes, sans phtalates, sans
           sulfates, sans gluten et non testés sur les animaux.<br></br> Ses
           best-sellers sont le rouge à lèvres Weightless Lip Color, le fond de
-          teint Tinted Face Oil et le blush crème Color & Light1.
+          teint Tinted Face Oil et le blush crème Color & Light.
         </p>
         <Adunit />
         <p>
@@ -71,7 +71,7 @@ export default function Home() {
           synthétiques, sans parfums artificiels, sans pétrochimie et véganes.
           Ses must-haves sont le blush crème Cream Blush, l’ombre à paupières
           crème Cream Eye Shadow et le rouge à lèvres mat Matte Naturally
-          Lipstick2.
+          Lipstick.
         </p>
         <Adunit />
         <p>
