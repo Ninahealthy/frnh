@@ -3,6 +3,7 @@ import Adunit1 from "@/components/Adunit1";
 import AuthorIcon from "@/components/AuthorIcon";
 import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
+import Cuisine from "@/components/Cuisine";
 import Fitness from "@/components/Fitness";
 import Head from "next/head";
 export default function Home() {
@@ -115,6 +116,7 @@ export default function Home() {
       <Beauty />
       <Bienetre />
       <Fitness />
+      <Cuisine />
     </>
   );
 }

@@ -1,6 +1,6 @@
 //make as home page mix of latest (3 latest from each catygory) and read also ( 3 articles as list that can be injected inside blogpost)
 
-import Nutrition from "./Nutrition";
+import Nutrition from "./Cuisine";
 import Fitness from "./Fitness";
 import Latest from "./Latest";
 import Beauty from "./Beauty";

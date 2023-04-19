@@ -40,9 +40,9 @@ export default function Header() {
                     : styles.navlink + " " + styles.active
                 }
                 onClick={openMenu}
-                href="/Nutrition"
+                href="/Cuisine"
               >
-                <em>Nutrition</em>
+                <em>Cuisine</em>
               </a>
             </li>
             <li className={styles.navitem}>

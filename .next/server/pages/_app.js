@@ -194,9 +194,9 @@ function Header() {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                     className: isOpen === false ? (Header_module_default()).navlink : (Header_module_default()).navlink + " " + (Header_module_default()).active,
                                     onClick: openMenu,
-                                    href: "/Nutrition",
+                                    href: "/Cuisine",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
-                                        children: "Nutrition"
+                                        children: "Cuisine"
                                     })
                                 })
                             }),

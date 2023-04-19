@@ -4,8 +4,9 @@ import AuthorIcon from "@/components/AuthorIcon";
 import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
-import Nutrition from "@/components/Nutrition";
+import Nutrition from "@/components/Cuisine";
 import Head from "next/head";
+import Cuisine from "@/components/Cuisine";
 export default function Purifier() {
   return (
     <>
@@ -201,7 +202,7 @@ export default function Purifier() {
       <Bienetre />
       <Fitness />
       <Beauty />
-      <Nutrition />
+      <Cuisine />
     </>
   );
 }
