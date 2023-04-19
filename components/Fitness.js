@@ -5,6 +5,7 @@ import tracker from "public/tracker-de-fitness.jpg";
 import running from "public/running-shoes-women.jpg";
 import stationary from "public/stationary-bikes.jpg";
 import vr from "public/fitness-vr.jpg";
+import portablefitness from "public/portable-fitness-gear.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -86,6 +87,27 @@ export default function Fitness() {
                   <em>
                     6 Jeux De Fitness En VR Qui Vont Vous Faire Transpirer Et
                     Sourire
+                  </em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
+        <item className={Styles.item}>
+          <a href="/Fitness/meilleurs-equipements-de-fitness-de-voyage-pour-2023">
+            <card className={Styles.card}>
+              <Image
+                src={portablefitness}
+                alt="portable fitness gear"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>
+                    Fitness Et Voyage: Les Accessoires Indispensables Pour
+                    Garder La Forme 🤸‍♀️
                   </em>
                 </strong>
               </p>

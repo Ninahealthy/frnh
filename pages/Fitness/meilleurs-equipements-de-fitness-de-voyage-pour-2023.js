@@ -23,125 +23,107 @@ export default function Home() {
       <AuthorIcon />
       <article>
         <h1>
-          6 Jeux De Fitness En VR Qui Vont Vous Faire Transpirer Et Sourire
+          Fitness Et Voyage: Les Accessoires Indispensables Pour Garder La Forme
+          🤸‍♀️
         </h1>
         <Adunit1 />
         <p>
-          Vous cherchez une façon amusante et efficace de faire du sport sans
-          quitter votre salon ? Alors vous devriez essayer les jeux de fitness
-          en réalité virtuelle ! Ces jeux vous permettent de bouger votre corps
-          tout en vous immergeant dans des univers variés et stimulants. Que
-          vous aimiez la musique, le combat, la danse ou l’aventure, il y a
-          forcément un jeu de fitness en VR qui vous convient. Voici notre
-          sélection des meilleurs jeux de fitness en VR pour les femmes.
+          Bonjour, mesdames! Vous aimez voyager et rester en forme? Moi aussi!
+          C’est pourquoi je vais vous parler de quelques articles de fitness de
+          voyage que j’ai testés et approuvés. Que vous partiez pour un week-end
+          ou pour un long séjour, ces accessoires compacts et légers vous
+          permettront de faire de l’exercice où que vous soyez. Voici ma
+          sélection des meilleurs équipements de fitness de voyage pour 2023.
         </p>
         <p>
           <strong>
-            <em> ✔️ Beat Saber</em>
+            <em> ✔️ Tapis de yoga pliable Primasole</em>
           </strong>
-          <br></br>Ce jeu est un incontournable du genre. Il s’agit de trancher
-          des blocs colorés avec des sabres laser au rythme de la musique1. Vous
-          devez aussi éviter des obstacles qui se présentent à vous. Beat Saber
-          fait travailler vos bras, vos jambes et votre coordination. Il propose
-          une large sélection de morceaux populaires et vous pouvez même ajouter
-          vos propres chansons grâce aux mods.
+          <br></br>Ce tapis se plie en carrés et se glisse facilement dans un
+          sac ou une valise. Il est disponible en plusieurs couleurs et il est
+          assez épais pour amortir vos articulations. Il est idéal pour faire du
+          yoga, du pilates ou du stretching dans votre chambre d’hôtel ou à
+          l’extérieur1. • Bandes de résistance Whatafit: Ces bandes élastiques
+          sont un excellent moyen de renforcer vos muscles du haut du corps sans
+          avoir besoin d’haltères. Elles sont livrées avec des poignées, des
+          sangles de cheville et un ancrage de porte pour varier les exercices.
+          Elles sont également réglables en intensité selon vos besoins.
         </p>
         <Adunit />
         <p>
           <strong>
-            <em> ✔️ Dance Central</em>
+            <em> ✔️ Bandes de résistance Whatafit </em>
           </strong>
           <br></br>
-          Si vous aimez danser, ce jeu est fait pour vous. Dance Central vous
-          invite à reproduire des chorégraphies sur des hits du moment ou des
-          classiques intemporels3. Vous pouvez choisir votre niveau de
-          difficulté et personnaliser votre avatar. Vous pouvez aussi défier vos
-          amis en ligne ou simplement profiter du mode histoire qui vous fait
-          découvrir différents clubs et personnages.
+          Ces bandes élastiques sont un excellent moyen de renforcer vos muscles
+          du haut du corps sans avoir besoin d’haltères. Elles sont livrées avec
+          des poignées, des sangles de cheville et un ancrage de porte pour
+          varier les exercices. Elles sont également réglables en intensité
+          selon vos besoins.
+        </p>
+        <p>
+          <strong>
+            <em> ✔️ Corde à sauter Survival and Cross </em>
+          </strong>
+          <br></br>
+          La corde à sauter est un exercice cardio simple mais efficace que vous
+          pouvez faire n’importe où. Cette corde à sauter est dotée d’un câble
+          en acier enduit qui ne s’emmêle pas et qui tourne facilement grâce à
+          des roulements à billes. Elle est également ajustable en longueur
+          selon votre taille.
         </p>
         <Adunit1 />
         <p>
           <strong>
-            <em>✔️ Holopoint</em>
+            <em>✔️ Roue abdominale Vinsguir</em>
           </strong>
           <br></br>
-          Ce jeu est un mélange de tir à l’arc et d’esquive. Vous devez viser et
-          tirer sur des cibles qui apparaissent autour de vous tout en évitant
-          les projectiles qu’elles renvoient3. Holopoint fait travailler votre
-          cardio, votre agilité et votre précision. Il offre un challenge
-          croissant au fur et à mesure que vous progressez dans les niveaux.
+          Si vous voulez travailler vos abdominaux en profondeur, cette roue est
+          faite pour vous. Elle est dotée d’une poignée antidérapante et d’une
+          surface large et stable qui glisse sur tous les types de sols. Elle
+          est également démontable et facile à transporter.
         </p>
         <Adunit />
         <p>
           <strong>
-            <em>✔️ Liteboxer</em>
+            <em>✔️ Échelle d’agilité Rogue Fitness</em>
           </strong>
           <br></br>
-          Ce jeu est une version VR du célèbre sac de frappe connecté
-          Liteboxer4. Il s’agit de frapper des cibles lumineuses qui
-          correspondent aux notes d’une chanson choisie. Liteboxer fait
-          travailler votre force, votre endurance et votre rythme. Il propose un
-          coaching personnalisé et une bibliothèque musicale variée.
+          Cette échelle pliable vous permettra d’améliorer votre coordination,
+          votre vitesse et votre équilibre grâce à des exercices ludiques. Elle
+          mesure 15 pieds de long et comporte 10 barreaux espacés régulièrement.
+          Vous pouvez la déployer sur le sol ou sur l’herbe et la ranger dans un
+          sac fourni.
         </p>
+
         <p>
-          <strong>
-            <em>✔️ Pistol Whip </em>
-          </strong>
-          <br></br>
-          Ce jeu est un shooter rythmique qui vous plonge dans des scènes
-          d’action dignes d’un film hollywoodien1. Vous devez tirer sur vos
-          ennemis tout en esquivant leurs balles au son d’une bande-son électro.
-          Pistol Whip fait travailler votre réflexes, votre équilibre et votre
-          créativité. Il propose différents modes de jeu et des mises à jour
-          régulières.
-        </p>
-        <p>
-          <strong>
-            <em>✔️ Synth Riders </em>
-          </strong>
-          <br></br>
-          Ce jeu est un autre jeu musical qui vous fait bouger au son de la
-          synthwave. Vous devez toucher des sphères colorées avec vos mains tout
-          en suivant le flux d’une piste virtuelle. Synth Riders fait travailler
-          votre coordination, votre souplesse et votre expression corporelle. Il
-          propose plus de 50 chansons originales et la possibilité de jouer en
-          multijoueur.
-        </p>
-        <p>
-          Voilà quelques exemples de jeux de fitness en VR que nous avons testés
-          et appréciés. Bien sûr, il existe d’autres jeux qui peuvent aussi vous
-          faire transpirer et brûler des calories tout en jouant. L’important
-          est de trouver le jeu qui correspond à vos goûts, à vos objectifs et à
-          votre budget.<br></br> Et vous, quels sont vos jeux préférés pour
-          faire du sport en VR ? N’hésitez pas à nous le dire dans les
-          commentaires !<br></br> À bientôt! 😊
+          Voilà, j’espère que ces équipements de fitness de voyage vous ont
+          donné envie de bouger pendant vos vacances.<br></br> N’hésitez pas à
+          me laisser vos commentaires ou vos questions ci-dessous.<br></br> À
+          bientôt! 😊
         </p>
         <p>
           <strong>Sources:</strong>
           <br></br>
           <a
-            href="https://techguided.com/best-vr-fitness-games/"
-            target={"_blank"}
-          >
-            <strong>• techguided.com</strong>
-          </a>
-          <br></br>
-          <a href="https://arvrtips.com/vr-fitness-games/" target={"_blank"}>
-            <strong>• arvrtips.com</strong>
-          </a>
-          <br></br>
-          <a
-            href="https://www.techradar.com/news/best-oculus-quest-2-fitness-games"
-            target={"_blank"}
-          >
-            <strong>• techradar.com</strong>
-          </a>
-          <br></br>
-          <a
-            href="https://www.themanual.com/fitness/best-vr-fitness-apps/"
+            href="https://www.themanual.com/travel/best-portable-fitness-workout-gear/"
             target={"_blank"}
           >
             <strong>• themanual.com</strong>
+          </a>
+          <br></br>
+          <a
+            href="https://www.travelandleisure.com/best-portable-exercise-equipment-7091025 "
+            target={"_blank"}
+          >
+            <strong>• travelandleisure.com</strong>
+          </a>
+          <br></br>
+          <a
+            href="https://hiconsumption.com/best-travel-workout-equipment/"
+            target={"_blank"}
+          >
+            <strong>• hiconsumption.com</strong>
           </a>
         </p>
       </article>

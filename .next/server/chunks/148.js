@@ -1,9 +1,9 @@
 "use strict";
-exports.id = 609;
-exports.ids = [609];
+exports.id = 148;
+exports.ids = [148];
 exports.modules = {
 
-/***/ 5609:
+/***/ 148:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 
@@ -28,7 +28,10 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const stationary_bikes = ({"src":"/_next/static/media/stationary-bikes.c5a5457c.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBAURBhIhUoH/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECAyH/2gAMAwEAAhEDEQA/AItA3iSzwve2kMu3AlkaRiMHtz4iIiaZy6bFquI//9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./public/fitness-vr.jpg
 /* harmony default export */ const fitness_vr = ({"src":"/_next/static/media/fitness-vr.e43aabb2.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAhEAACAQMDBQAAAAAAAAAAAAABAwACBBEFBhITFCExgf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAWEQEBAQAAAAAAAAAAAAAAAAABABL/2gAMAwEAAhEDEQA/AIU6s643exlvddyGooq5dErYRn2Rk+R9yDERBVGbI3//2Q==","blurWidth":8,"blurHeight":8});
+;// CONCATENATED MODULE: ./public/portable-fitness-gear.jpg
+/* harmony default export */ const portable_fitness_gear = ({"src":"/_next/static/media/portable-fitness-gear.574ba447.jpg","height":1024,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAbEAACAwEBAQAAAAAAAAAAAAABAgADBgUVgf/EABUBAQEAAAAAAAAAAAAAAAAAAAQF/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQIAA//aAAwDAQACEQMRAD8AvodFol61h8xl5xYLUtlTKzgkD40REbzUNH7zNIpv/9k=","blurWidth":8,"blurHeight":8});
 ;// CONCATENATED MODULE: ./components/Fitness.js
+
 
 
 
@@ -138,6 +141,31 @@ function Fitness() {
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
                                             children: "6 Jeux De Fitness En VR Qui Vont Vous Faire Transpirer Et Sourire"
+                                        })
+                                    })
+                                })
+                            ]
+                        })
+                    })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("item", {
+                    className: (Card_module_default()).item,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "/Fitness/meilleurs-equipements-de-fitness-de-voyage-pour-2023",
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("card", {
+                            className: (Card_module_default()).card,
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: portable_fitness_gear,
+                                    alt: "portable fitness gear",
+                                    style: responsive,
+                                    priority: true,
+                                    sizes: "100vw"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx("em", {
+                                            children: "Fitness Et Voyage: Les Accessoires Indispensables Pour Garder La Forme \uD83E\uDD38‍♀️"
                                         })
                                     })
                                 })
