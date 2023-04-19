@@ -12,6 +12,12 @@ export default function Document() {
           crossorigin="anonymous"
         />
         <Script
+          id="Adm"
+          strategy="lazyOnload"
+          src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+          crossorigin="anonymous"
+        />
+        <Script
           id="Gtag"
           strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-C8757P0MH2"
@@ -26,6 +32,21 @@ export default function Document() {
           gtag('js', new Date());
         
           gtag('config', 'G-C8757P0MH2');
+          `,
+          }}
+        />
+        <Script
+          id="Adma"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+              googletag.defineSlot('/22182935555/1/header', [728, 90], 'div-gpt-ad-1681864565615-0').addService(googletag.pubads());
+              googletag.pubads().enableSingleRequest();
+              googletag.pubads().collapseEmptyDivs();
+              googletag.enableServices();
+            });
           `,
           }}
         />

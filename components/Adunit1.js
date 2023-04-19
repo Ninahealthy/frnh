@@ -1,14 +1,17 @@
 import React, { useEffect } from "react";
 import Script from "next/script";
 export default function Adunit1() {
-  useEffect(() => {
+  const fixed = { width: "728px", height: "90px" };
+  {
+    /*useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
-  }, []);
+  }, []);*/
+  }
 
   return (
     <>
       <adunit>
-        <ad>
+        {/*<ad>
           <Script
             id="Adunit1"
             strategy="lazyOnload"
@@ -23,6 +26,18 @@ export default function Adunit1() {
             data-ad-format="auto"
             data-full-width-responsive="true"
           ></ins>
+  </ad>*/}
+        <ad>
+          <div id="div-gpt-ad-1681864565615-0" style={fixed}>
+            <Script
+              strategy="lazyOnload"
+              dangerouslySetInnerHTML={{
+                __html: `
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1681864565615-0'); });
+          `,
+              }}
+            />
+          </div>
         </ad>
       </adunit>
     </>

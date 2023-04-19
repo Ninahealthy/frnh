@@ -63,15 +63,15 @@ export default function Terms() {
           reasonable attorney's fees, related to your violation of this
           Agreement or use of the Website.
         </p>
-        <h2>7. Jurisdiction and Choice of Law</h2>
+        {/*<h2>7. Jurisdiction and Choice of Law</h2>
         <p>
           This Agreement shall be governed by and construed in accordance with
           the laws of the state of [STATE], without giving effect to any
           principles of conflicts of law.<br></br> Any action seeking legal or
           equitable relief arising out of or relating to the Website shall be
           brought only in the courts of [STATE].
-        </p>
-        <h2>8. Miscellaneous</h2>
+  </p>*/}
+        <h2>7. Miscellaneous</h2>
         <p>
           This Agreement constitutes the entire agreement between you and us
           with respect to the use of the Website.<br></br> Our failure to insist

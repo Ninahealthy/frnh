@@ -19,30 +19,29 @@ exports.modules = {
 
 
 function Adunit1() {
-    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }, []);
+    const fixed = {
+        width: "728px",
+        height: "90px"
+    };
+    {
+    /*useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);*/ }
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("adunit", {
-            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ad", {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {
-                        id: "Adunit1",
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ad", {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                    id: "div-gpt-ad-1681864565615-0",
+                    style: fixed,
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_script__WEBPACK_IMPORTED_MODULE_2___default()), {
                         strategy: "lazyOnload",
-                        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778",
-                        crossorigin: "anonymous"
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ins", {
-                        className: "adsbygoogle",
-                        style: {
-                            display: "block"
-                        },
-                        "data-ad-client": "ca-pub-2087636695455778",
-                        "data-ad-slot": "2549748890",
-                        "data-ad-format": "auto",
-                        "data-full-width-responsive": "true"
+                        dangerouslySetInnerHTML: {
+                            __html: `
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1681864565615-0'); });
+          `
+                        }
                     })
-                ]
+                })
             })
         })
     });
