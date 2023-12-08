@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Script from "next/script";
 export default function Adunit1() {
   useEffect(() => {
-    if (window.adsbygoogle && window.adsbygoogle.push) {
+    if (window.adsbygoogle && window.adsbygoogle.loaded) {
       window.adsbygoogle.push({});
     }
   }, []);
