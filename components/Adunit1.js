@@ -2,8 +2,13 @@ import React, { useEffect } from "react";
 import Script from "next/script";
 export default function Adunit1() {
   useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
+    if (window.adsbygoogle && window.adsbygoogle.push) {
+      window.adsbygoogle.push({});
+    }
   }, []);
+  /*
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);*/
 
   return (
     <>

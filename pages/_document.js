@@ -35,7 +35,7 @@ export default function Document() {
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 "
         />
-        <meta name="modified" content="2023-04-15" />
+        <meta name="modified" content="2023-12-8" />
       </Head>
       <body>
         <Main />

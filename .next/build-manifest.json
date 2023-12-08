@@ -1,251 +1,46 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/fVoRzrAcLk4xEWJCU3hug/_buildManifest.js",
-    "static/fVoRzrAcLk4xEWJCU3hug/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/index-068283d32390a97f.js"
-    ],
-    "/About-me": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/About-me-45f9da57a6fa919f.js"
-    ],
-    "/Beauty": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty-6292647c0a58fd53.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/Beauty/marques-de-maquillage-clean": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/marques-de-maquillage-clean-2c68620b3513b802.js"
-    ],
-    "/Beauty/meilleurs-produits-pour-cheveux-boucles": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/meilleurs-produits-pour-cheveux-boucles-fe557e33169cf454.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Beauty/marques-de-maquillage-clean.js"
     ],
     "/Beauty/meilleurs-shampoings-clarifiants": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/meilleurs-shampoings-clarifiants-b09428e4fe933f03.js"
-    ],
-    "/Beauty/meilleurs-stylos-de-blanchiment": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/meilleurs-stylos-de-blanchiment-8c923463d0f88add.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Beauty/meilleurs-shampoings-clarifiants.js"
     ],
     "/Beauty/secrets-des-femmes-qui-restent-jeunes": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes-bffb54ee055ea657.js"
-    ],
-    "/Bien-etre": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre-5b9cae337d31e192.js"
-    ],
-    "/Bien-etre/ameliorer-votre-concentration": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/ameliorer-votre-concentration-2c0163fcabd6150d.js"
-    ],
-    "/Bien-etre/astuces-decoration-terrasse-exterieur": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/astuces-decoration-terrasse-exterieur-5ddeb2d83d6602c9.js"
-    ],
-    "/Bien-etre/astuces-naturelles-pour-purifier-air-de-sa-maison": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/astuces-naturelles-pour-purifier-air-de-sa-maison-93c940190c12ff7f.js"
-    ],
-    "/Bien-etre/idees-pour-amenager-un-petit-jardin": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/idees-pour-amenager-un-petit-jardin-bd968a8317269fc5.js"
-    ],
-    "/Bien-etre/quels-sont-les-cinq-indicateurs-SMART": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Bien-etre/quels-sont-les-cinq-indicateurs-SMART-89fd8739c89f4057.js"
-    ],
-    "/Contact": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/bb0fca41aa2bd321.css",
-      "static/chunks/pages/Contact-82d0c964fda49e1e.js"
-    ],
-    "/Cuisine": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Cuisine-e119fe213f6cdc88.js"
-    ],
-    "/Cuisine/cookies-healthy": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Cuisine/cookies-healthy-7347d627d361e791.js"
-    ],
-    "/Cuisine/flocon-avoine-au-four-healthy": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Cuisine/flocon-avoine-au-four-healthy-e6e69ff852dd14c2.js"
-    ],
-    "/Cuisine/les-meilleures-machines-a-cafe-nespresso-en-2023": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Cuisine/les-meilleures-machines-a-cafe-nespresso-en-2023-4a821fa7e8471be6.js"
-    ],
-    "/Cuisine/meilleurs-extracteurs-de-jus-pour-faire-des-boissons-nutritives": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Cuisine/meilleurs-extracteurs-de-jus-pour-faire-des-boissons-nutritives-c41c5e79a65bd165.js"
-    ],
-    "/Fitness": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness-309b7d8d4453e694.js"
-    ],
-    "/Fitness/jeux-de-fitness-en-VR-qui-vont-vous-faire-transpirer-et-sourire": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/jeux-de-fitness-en-VR-qui-vont-vous-faire-transpirer-et-sourire-3958988ae2a62481.js"
-    ],
-    "/Fitness/meilleures-chaussures-de-course-pour-le-confort-et-le-soutien": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/meilleures-chaussures-de-course-pour-le-confort-et-le-soutien-4b1d186378255f6f.js"
-    ],
-    "/Fitness/meilleurs-equipements-de-fitness-de-voyage-pour-2023": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/meilleurs-equipements-de-fitness-de-voyage-pour-2023-5ffc1262a6d52540.js"
-    ],
-    "/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/meilleurs-trackers-de-fitness-pour-les-femmes-64ec1291b64cdf76.js"
-    ],
-    "/Fitness/velos-stationnaire-les-plus-performants-en-2023": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/579-642fe20a5e662b68.js",
-      "static/css/ba21975ac55f0cd2.css",
-      "static/chunks/pages/Fitness/velos-stationnaire-les-plus-performants-en-2023-8bed22aa2f0a620c.js"
-    ],
-    "/Important-disclaimer": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Important-disclaimer-8f1da16dc5daafcf.js"
-    ],
-    "/Privacy-policy": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Privacy-policy-40f943127973927d.js"
-    ],
-    "/Terms-and-conditions": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/Terms-and-conditions-0fe2db1f76bea919.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Beauty/secrets-des-femmes-qui-restent-jeunes.js"
     ],
     "/_app": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/css/e6ec928bf2d67f7f.css",
-      "static/chunks/pages/_app-88ff32efe4bade2e.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/_error-54de1933a164a1ff.js"
-    ],
-    "/search": [
-      "static/chunks/webpack-c4acd79e87956a0e.js",
-      "static/chunks/framework-2c79e2a64abdb08b.js",
-      "static/chunks/main-164f91e3b1a225f8.js",
-      "static/chunks/pages/search-f1e061c7031ddc12.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []
