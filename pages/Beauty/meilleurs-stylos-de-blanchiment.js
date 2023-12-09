@@ -44,7 +44,7 @@ export default function Stylos() {
           dents sèches et propres. Les résultats sont visibles dès la première
           utilisation et durent jusqu’à un an.
         </p>
-        <Adunit slot="2549748890" adformat="auto" responsive="true" />
+        <Adunit slot="4949230260" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>2. Arc Teeth Whitening Pen:</em>
@@ -56,7 +56,7 @@ export default function Stylos() {
           sur les dents humides et propres. Les résultats sont visibles en une
           semaine et durent jusqu’à six mois.
         </p>
-        <Adunit1 />
+        <Adunit slot="2549748890" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>3. Lumineux Ultra-Bright Whitening Pen:</em>
@@ -69,7 +69,7 @@ export default function Stylos() {
           sèches et propres. Les résultats sont visibles en deux semaines et
           durent jusqu’à trois mois.
         </p>
-        <Adunit slot="2549748890" adformat="auto" responsive="true" />
+        <Adunit slot="4949230260" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>4. Crest Whitening Emulsions Pen:</em>

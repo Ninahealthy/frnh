@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/sJw9uBBmX3EFr5redplCd/_buildManifest.js",
-    "static/sJw9uBBmX3EFr5redplCd/_ssgManifest.js"
+    "static/31FJxK4PxuQs0DIZv_-XZ/_buildManifest.js",
+    "static/31FJxK4PxuQs0DIZv_-XZ/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -60,7 +60,7 @@
       "static/chunks/main-bac2f07e2c919777.js",
       "static/chunks/323-f6dab0a3e4170bd2.js",
       "static/css/f92b2c795654fb4a.css",
-      "static/chunks/pages/Beauty/meilleurs-stylos-de-blanchiment-6fb984c85e775735.js"
+      "static/chunks/pages/Beauty/meilleurs-stylos-de-blanchiment-e6fc24d7255fee5f.js"
     ],
     "/Beauty/secrets-des-femmes-qui-restent-jeunes": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
