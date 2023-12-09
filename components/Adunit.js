@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Script from "next/script";
-export default function Adunit({ slot, adformat, responsive }) {
+export default function Adunit(/*{ slot, adformat, responsive } this is another way to integrate adsense*/) {
   useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
   }, []);
@@ -19,12 +19,12 @@ export default function Adunit({ slot, adformat, responsive }) {
             className="adsbygoogle"
             style={{ display: "block" }}
             data-ad-client="ca-pub-2087636695455778"
-            data-ad-slot={slot}
+            /*</ad>data-ad-slot={slot}
             data-ad-format={adformat}
-            data-full-width-responsive={responsive}
-            /*data-ad-slot="2549748890"
+            data-full-width-responsive={responsive}*/
+            data-ad-slot="2549748890"
             data-ad-format="auto"
-            data-full-width-responsive="true"*/
+            data-full-width-responsive="true"
           ></ins>
         </ad>
       </adunit>

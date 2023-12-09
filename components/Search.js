@@ -11,6 +11,7 @@ export default function SearchForm() {
   }
 
   return (
+    // try to make multiple <input> for multiple text input
     <div>
       <form className={Styles.form}>
         <input
