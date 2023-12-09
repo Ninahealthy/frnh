@@ -21,7 +21,7 @@ export default function Stylos() {
       <AuthorIcon />
       <article>
         <h1>7 meilleurs stylos de blanchiment des dents de 2023</h1>
-        <Adunit1 />
+        <Adunit slot="2549748890" adformat="auto" responsive="true" />
         <p>
           Bonjour, mesdames! Aujourd’hui, je vais vous parler des 7 meilleurs
           stylos de blanchiment des dents de 2023. Si vous cherchez un moyen
@@ -44,7 +44,7 @@ export default function Stylos() {
           dents sèches et propres. Les résultats sont visibles dès la première
           utilisation et durent jusqu’à un an.
         </p>
-        <Adunit />
+        <Adunit slot="2549748890" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>2. Arc Teeth Whitening Pen:</em>
@@ -69,7 +69,7 @@ export default function Stylos() {
           sèches et propres. Les résultats sont visibles en deux semaines et
           durent jusqu’à trois mois.
         </p>
-        <Adunit />
+        <Adunit slot="2549748890" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>4. Crest Whitening Emulsions Pen:</em>
