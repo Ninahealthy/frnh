@@ -1,10 +1,10 @@
-import Styles from "@/styles/Card.module.css";
+import Styles from "./Card.module.css";
 import Image from "next/image";
 import woman from "/public/beautiful_model.webp";
-import jardin from "public/idees-jardin.jpg";
-import terrasse from "public/terrasse.jpg";
-import purifier from "public/air-purifier.jpg";
-import SMART from "public/SMART-goals.jpg";
+import jardin from "/public/idees-jardin.jpg";
+import terrasse from "/public/terrasse.jpg";
+import purifier from "/public/air-purifier.jpg";
+import SMART from "/public/SMART-goals.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 

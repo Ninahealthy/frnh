@@ -1,7 +1,0 @@
-"use strict";(()=>{var e={};e.id=660,e.ids=[660],e.modules={4003:(e,a,t)=>{t.r(a),t.d(a,{default:()=>Document});var r=t(997),s=t(6859),o=t(4298),n=t.n(o);function Document(){return(0,r.jsxs)(s.Html,{lang:"fr",children:[(0,r.jsxs)(s.Head,{children:[r.jsx(n(),{id:"Ad",strategy:"lazyOnload",src:"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778",crossorigin:"anonymous"}),r.jsx(n(),{id:"Gtag",strategy:"lazyOnload",src:"https://www.googletagmanager.com/gtag/js?id=G-C8757P0MH2"}),r.jsx(n(),{id:"Analytics",strategy:"lazyOnload",dangerouslySetInnerHTML:{__html:`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-C8757P0MH2');
-          `}}),r.jsx("meta",{name:"googlebot",content:"index, follow"}),r.jsx("meta",{name:"robots",content:"index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 "}),r.jsx("meta",{name:"modified",content:"2023-12-8"})]}),(0,r.jsxs)("body",{children:[r.jsx(s.Main,{}),r.jsx(s.NextScript,{})]})]})}},2785:e=>{e.exports=require("next/dist/compiled/next-server/pages.runtime.prod.js")},6689:e=>{e.exports=require("react")},6405:e=>{e.exports=require("react-dom")},997:e=>{e.exports=require("react/jsx-runtime")},1017:e=>{e.exports=require("path")}};var a=require("../webpack-runtime.js");a.C(e);var t=e=>a(a.s=e),r=a.X(0,[803],()=>t(4003));module.exports=r})();

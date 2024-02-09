@@ -1,9 +1,9 @@
-import Styles from "@/styles/Card.module.css";
+import Styles from "./Card.module.css";
 import Image from "next/image";
 import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
 import cookie from "/public/cookies.webp";
-import juicers from "public/juicers.jpg";
-import coffee from "public/coffee-machines.jpg";
+import juicers from "/public/juicers.jpg";
+import coffee from "/public/coffee-machines.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 

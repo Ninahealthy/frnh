@@ -1,11 +1,11 @@
-import Styles from "@/styles/Card.module.css";
+import Styles from "./Card.module.css";
 import Image from "next/image";
 
-import tracker from "public/tracker-de-fitness.jpg";
-import running from "public/running-shoes-women.jpg";
-import stationary from "public/stationary-bikes.jpg";
-import vr from "public/fitness-vr.jpg";
-import portablefitness from "public/portable-fitness-gear.jpg";
+import tracker from "/public/tracker-de-fitness.jpg";
+import running from "/public/running-shoes-women.jpg";
+import stationary from "/public/stationary-bikes.jpg";
+import vr from "/public/fitness-vr.jpg";
+import portablefitness from "/public/portable-fitness-gear.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 

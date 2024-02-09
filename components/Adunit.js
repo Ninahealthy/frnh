@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect } from "react";
 import Script from "next/script";
 export default function Adunit(/*{ slot, adformat, responsive } this is another way to integrate adsense*/) {

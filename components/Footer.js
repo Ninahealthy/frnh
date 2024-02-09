@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
       <footer>
-        <p>
+        {/*<p>
           Toute information publiée sur ce site n'a pas pour intention ou ne
           sous-entend pas de se substituer à un conseil médical professionnel,
           un diagnostic ou un traitement.<br></br> Tout le contenu, y compris le
@@ -24,7 +26,8 @@ export default function Footer() {
                 />
               </a>
             </li>
-            {/*<li>
+            /*
+            <li>
               <a href="https://www.instagram.com" target="_blank">
                 <img
                   src="/instagram.svg"
@@ -43,25 +46,25 @@ export default function Footer() {
                   height={60}
                 />
               </a>
-  </li>*/}
+            </li>
           </ul>
-        </social>
+        </social>*/}
         <footernav>
           <ul>
             <li>
-              <a href="/Privacy-policy">Privacy Policy</a>
+              <Link href="/Privacy-policy">Privacy Policy </Link>
             </li>
             <li>
-              <a href="/Terms-and-conditions">Terms And Conditions</a>
+              <Link href="/Terms-and-conditions">Terms And Conditions</Link>
             </li>
             <li>
-              <a href="/Important-disclaimer">Important Disclaimer</a>
+              <Link href="/Important-disclaimer">Important Disclaimer</Link>
             </li>
             <li>
-              <a href="/Contact">Contact</a>
+              <Link href="/Contact">Contact</Link>
             </li>
             <li>
-              <a href="/About-me">About</a>
+              <Link href="/About-us">About</Link>
             </li>
           </ul>
         </footernav>

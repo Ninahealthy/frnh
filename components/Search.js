@@ -1,13 +1,16 @@
-import React, { useState } from "react";
-import Styles from "@/styles/Search.module.css";
+"use client";
+
+import { useState } from "react";
+import Styles from "./Search.module.css";
 export default function SearchForm() {
   const [searchValue, setSearchValue] = useState("");
+  const [searchValuee, setSearchValuee] = useState("");
 
   function handleSearch(e) {
     e.preventDefault();
-    console.log(searchValue);
+    console.log(searchValue, searchValuee);
     // Open the search results in a new tab
-    window.open(`/search?q=${searchValue}`);
+    window.open(`/search?q=${searchValue} ${searchValuee}`);
   }
 
   return (
@@ -20,6 +23,13 @@ export default function SearchForm() {
           placeholder="Comment Puis-Je Vous Aider ?"
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
+        />
+        <input
+          className={Styles.input}
+          type="text"
+          placeholder="Comment Puis-Je Vous Aider ?"
+          value={searchValuee}
+          onChange={(e) => setSearchValuee(e.target.value)}
         />
         <button className={Styles.button} type="submit" onClick={handleSearch}>
           Help !

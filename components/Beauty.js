@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Styles from "@/styles/Card.module.css";
+import Styles from "./Card.module.css";
 import makeup from "/public/makeup.jpg";
 import young from "/public/young-woman.png";
-import curly from "public/curly-hair.jpg";
-import shampo from "public/shampoo.jpg";
-import stylo from "public/stylos-blanchiment.jpg";
+import curly from "/public/curly-hair.jpg";
+import shampo from "/public/shampoo.jpg";
+import stylo from "/public/stylos-blanchiment.jpg";
 
 const responsive = { width: "100%", height: "auto" };
 
