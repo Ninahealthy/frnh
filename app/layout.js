@@ -43,8 +43,12 @@ export default function RootLayout({ children }) {
         <Script
           id="Ad"
           strategy="lazyOnload"
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
-          crossorigin="anonymous"
+          dangerouslySetInnerHTML={{
+            __html: `
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
+            crossorigin="anonymous"
+          `,
+          }}
         />
         <Script
           id="Gtag"
