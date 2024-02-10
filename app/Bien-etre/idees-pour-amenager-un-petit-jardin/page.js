@@ -7,17 +7,15 @@ import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
 import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+
+export const metadata = {
+  title: "7 Idées Pour Aménager un Petit Jardin",
+  description:
+    "Découvrez comment optimiser votre extérieur avec une terrasse mobile, une solution pratique et design qui vous permet de couvrir votre piscine et de créer un espace détente.",
+};
 export default function Jardin() {
   return (
     <>
-      <Head>
-        <title>7 Idées Pour Aménager un Petit Jardin</title>
-
-        <meta
-          name="description"
-          content="Découvrez comment optimiser votre extérieur avec une terrasse mobile, une solution pratique et design qui vous permet de couvrir votre piscine et de créer un espace détente."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>7 Idées Pour Aménager un Petit Jardin</h1>

@@ -5,22 +5,17 @@ import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
-import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+
+export const metadata = {
+  title:
+    "les meilleurs shampoings clarifiants qui vont débarrasser vos cheveux des impuretés.",
+  description:
+    " Découvrez les meilleurs shampoings clarifiants qui vont débarrasser vos cheveux des impuretés et leur redonner de la brillance, de la légèreté et de la vitalité.",
+};
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>
-          les meilleurs shampoings clarifiants qui vont débarrasser vos cheveux
-          des impuretés.
-        </title>
-
-        <meta
-          name="description"
-          content="Découvrez les meilleurs shampoings clarifiants qui vont débarrasser vos cheveux des impuretés et leur redonner de la brillance, de la légèreté et de la vitalité."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>

@@ -1,16 +1,14 @@
-"use client";
-
-import React, { useEffect } from "react";
 import Script from "next/script";
+
 export default function Adunit1() {
-  useEffect(() => {
-    /*if (window.adsbygoogle && window.adsbygoogle.loaded) {
+  //useEffect(() => {
+  /*if (window.adsbygoogle && window.adsbygoogle.loaded) {
       window.adsbygoogle.push({});
     }
   }, []);*/
 
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  }, []);
+  //(window.adsbygoogle = window.adsbygoogle || []).push({});
+  //}, []);
 
   return (
     <>
@@ -21,6 +19,10 @@ export default function Adunit1() {
             strategy="lazyOnload"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
             crossorigin="anonymous"
+            dangerouslySetInnerHTML={{
+              __html:
+                "(window.adsbygoogle = window.adsbygoogle || []).push({});",
+            }}
           />
           <ins
             className="adsbygoogle"

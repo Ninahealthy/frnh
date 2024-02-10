@@ -5,20 +5,15 @@ import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
-import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+export const metadata = {
+  title: "Comment développer votre focus et votre sérénité en 6 étapes",
+  description:
+    "Comment rester concentrée et attentive dans un monde où tout va vite ? Suivez ces 6 conseils pratiques pour développer votre focus et votre sérénité au quotidien.",
+};
 export default function Concentration() {
   return (
     <>
-      <Head>
-        <title>
-          Comment développer votre focus et votre sérénité en 6 étapes
-        </title>
-        <meta
-          name="description"
-          content="Comment rester concentrée et attentive dans un monde où tout va vite ? Suivez ces 6 conseils pratiques pour développer votre focus et votre sérénité au quotidien."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>Comment développer votre focus et votre sérénité en 6 étapes</h1>

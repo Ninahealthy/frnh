@@ -5,21 +5,16 @@ import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
-import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+
+export const metadata = {
+  title: "5 Astuces de décoration pour une terrasse extérieur cosy et chic",
+  description:
+    "Découvrez 5 astuces simples et élégantes pour embellir votre terrasse extérieur et créer un espace accueillant et confortable pour vos soirées en plein air.",
+};
 export default function Terrasse() {
   return (
     <>
-      <Head>
-        <title>
-          5 Astuces de décoration pour une terrasse extérieur cosy et chic
-        </title>
-
-        <meta
-          name="description"
-          content="Découvrez 5 astuces simples et élégantes pour embellir votre terrasse extérieur et créer un espace accueillant et confortable pour vos soirées en plein air."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>

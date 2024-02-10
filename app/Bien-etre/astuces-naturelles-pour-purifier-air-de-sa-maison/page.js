@@ -7,19 +7,15 @@ import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
 import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+export const metadata = {
+  titile:
+    "✔️ 5 Astuces Simples Et Naturelles Pour Purifier l’air de sa Maison 💚",
+  description:
+    "La qualité de l’air dans votre maison a un impact sur votre bien-être et votre santé. Pour améliorer l’air que vous respirez chez vous, voici 5 astuces pour le purifier avec des méthodes naturelles. Des plantes aux huiles essentielles, en passant par les purificateurs d’air et les produits sans COV, découvrez comment respirer un air plus pur chez vous ! ",
+};
 export default function Purifier() {
   return (
     <>
-      <Head>
-        <title>
-          ✔️ 5 Astuces Simples Et Naturelles Pour Purifier l’air de sa Maison 💚
-        </title>
-
-        <meta
-          name="description"
-          content="La qualité de l’air dans votre maison a un impact sur votre bien-être et votre santé. Pour améliorer l’air que vous respirez chez vous, voici 5 astuces pour le purifier avec des méthodes naturelles. Des plantes aux huiles essentielles, en passant par les purificateurs d’air et les produits sans COV, découvrez comment respirer un air plus pur chez vous !"
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>

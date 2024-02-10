@@ -7,19 +7,15 @@ import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
 import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+
+export const metadata = {
+  title: "Vieillir en beauté : Les 7 secrets des femmes qui restent jeunes ",
+  descreption:
+    " Découvrez les 7 habitudes puissantes des femmes qui vieillissent lentement et qui vous aideront à préserver votre santé, votre beauté et votre vitalité à tout âge.",
+};
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>
-          Vieillir en beauté : Les 7 secrets des femmes qui restent jeunes
-        </title>
-
-        <meta
-          name="description"
-          content="Découvrez les 7 habitudes puissantes des femmes qui vieillissent lentement et qui vous aideront à préserver votre santé, votre beauté et votre vitalité à tout âge."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>

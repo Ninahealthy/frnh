@@ -5,21 +5,15 @@ import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
-import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+export const metadata = {
+  title: "Comment Les SMART Goals Peuvent Transformer Votre Vie En Mieux 💡",
+  description:
+    " Découvrez comment utiliser la méthode des SMART goals pour changer votre vie positivement. Voici quelques exemples concrets pour vous inspirer dans vos domaines personnels et professionnels.",
+};
 export default function Jardin() {
   return (
     <>
-      <Head>
-        <title>
-          Comment Les SMART Goals Peuvent Transformer Votre Vie En Mieux 💡
-        </title>
-
-        <meta
-          name="description"
-          content="Découvrez comment utiliser la méthode des SMART goals pour changer votre vie positivement. Voici quelques exemples concrets pour vous inspirer dans vos domaines personnels et professionnels."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>

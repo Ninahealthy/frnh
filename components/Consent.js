@@ -25,7 +25,7 @@ export default function Consent() {
   return (
     <consent>
       {consent ? (
-        <text></text>
+        <></>
       ) : (
         <button className="button-consent" onClick={handleConsent}>
           Ce site utilise des cookies pour améliorer votre expérience

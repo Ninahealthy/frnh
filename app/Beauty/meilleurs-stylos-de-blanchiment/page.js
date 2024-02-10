@@ -4,19 +4,16 @@ import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
-import Head from "next/head";
 import Cuisine from "@/components/Cuisine";
+
+export const metadata = {
+  titile: "7 meilleurs stylos de blanchiment des dents de 2023",
+  description:
+    " Découvrez les 7 meilleurs stylos de blanchiment des dents de 2023 dans cet article. Je vous donne mon avis sur chaque produit, ses avantages et ses inconvénients, et comment l’utiliser pour obtenir des résultats rapides et durables.",
+};
 export default function Stylos() {
   return (
     <>
-      <Head>
-        <title>7 meilleurs stylos de blanchiment des dents de 2023</title>
-
-        <meta
-          name="description"
-          content="Découvrez les 7 meilleurs stylos de blanchiment des dents de 2023 dans cet article. Je vous donne mon avis sur chaque produit, ses avantages et ses inconvénients, et comment l’utiliser pour obtenir des résultats rapides et durables."
-        />
-      </Head>
       <AuthorIcon />
       <article>
         <h1>7 meilleurs stylos de blanchiment des dents de 2023</h1>
