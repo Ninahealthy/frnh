@@ -1,13 +1,12 @@
 import Link from "next/link";
 
-import Head from "next/head";
+export const metadata = {
+  title: "Important Disclaimer",
+  description: "Important Disclaimer",
+};
 export default function Important() {
   return (
     <>
-      <Head>
-        <title>Important Disclaimer</title>
-        <meta name="description" content="Important disclaimer" />
-      </Head>
       <article>
         <h1>IMPORTANT DISCLAIMER</h1>
         <p>

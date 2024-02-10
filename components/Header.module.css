@@ -15,12 +15,13 @@
 
 .bar {
   display: block;
-  width: 35px;
+  width: 2rem;
   height: 3px;
-  margin: 5px auto;
+  margin: 4px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #000000;
+  border-radius: 60px;
 }
 
 .navmenu {
@@ -92,18 +93,24 @@
     padding: 0.5rem;
   }
 
+  
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
+
   }
+
 
   .hamburger.active .bar:nth-child(1) {
     -webkit-transform: translateY(8px) rotate(45deg);
     transform: translateY(8px) rotate(45deg);
+    border-radius: 60px;
   }
 
   .hamburger.active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
+    border-radius: 60px;
   }
 }
 

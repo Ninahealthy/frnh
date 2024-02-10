@@ -1,12 +1,12 @@
-import Head from "next/head";
 import Styles from "./page.module.css";
+
+export const metadata = {
+  title: "Terms And Conditions",
+  description: "Terms And Conditions",
+};
 export default function Terms() {
   return (
     <>
-      <Head>
-        <title>Terms And Conditions</title>
-        <meta name="description" content="Terms and conditions page" />
-      </Head>
       <page className={Styles.page}>
         <h1>Terms and Conditions</h1>
         <h2>1. Introduction</h2>

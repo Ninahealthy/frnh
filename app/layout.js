@@ -19,15 +19,21 @@ export const viewport = {
 };
 
 export const metadata = {
-  googlebot: "index, follow",
-
-  robots:
-    "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1 ",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 
   modified: "02/09/2024",
-
-  title: "NH",
-  description: "",
 };
 
 export default function RootLayout({ children }) {

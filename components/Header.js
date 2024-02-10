@@ -37,7 +37,7 @@ export default function Header() {
               </a>
             </li>
             <li className={styles.navitem}>
-              <a
+              <Link
                 className={
                   isOpen === false
                     ? styles.navlink
@@ -47,10 +47,10 @@ export default function Header() {
                 href="/Cuisine"
               >
                 <em>Cuisine</em>
-              </a>
+              </Link>
             </li>
             <li className={styles.navitem}>
-              <a
+              <Link
                 className={
                   isOpen === false
                     ? styles.navlink
@@ -60,10 +60,10 @@ export default function Header() {
                 href="/Fitness"
               >
                 <em>Fitness</em>
-              </a>
+              </Link>
             </li>
             <li className={styles.navitem}>
-              <a
+              <Link
                 className={
                   isOpen === false
                     ? styles.navlink
@@ -73,10 +73,10 @@ export default function Header() {
                 href="/Bien-etre"
               >
                 <em>Bien-être</em>
-              </a>
+              </Link>
             </li>
             <li className={styles.navitem}>
-              <a
+              <Link
                 className={
                   isOpen === false
                     ? styles.navlink
@@ -86,7 +86,7 @@ export default function Header() {
                 href="/Beauty"
               >
                 <em>Beauty</em>
-              </a>
+              </Link>
             </li>
           </ul>
           <button

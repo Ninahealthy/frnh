@@ -1,5 +1,10 @@
 import Script from "next/script";
 
+export const metadata = {
+  title: "Search",
+  description: "",
+};
+
 export default function Search() {
   return (
     <>

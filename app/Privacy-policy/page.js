@@ -1,16 +1,13 @@
-import Head from "next/head";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Privacy Policy",
+  description: "Privacy Policy",
+};
 
 export default function Privacy() {
   return (
     <>
-      <Head>
-        <title>Privacy Policy</title>
-        <meta
-          name="description"
-          content="Privacy Policy page for Ninahealthy.com"
-        />
-      </Head>
       <article>
         <h1>Privacy Policy</h1>
         <p>
