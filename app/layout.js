@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Script from "next/script";
 import Author from "@/components/Author";
 import Consent from "@/components/Consent";
+import Adsense from "@/components/Adsense";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,16 +41,7 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang="fr">
-        <Script
-          id="Ad"
-          strategy="lazyOnload"
-          dangerouslySetInnerHTML={{
-            __html: `
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
-            crossorigin="anonymous"
-          `,
-          }}
-        />
+        <Adsense />
         <Script
           id="Gtag"
           strategy="lazyOnload"
