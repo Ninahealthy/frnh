@@ -22,13 +22,14 @@ function GoogleAdPcItem({ adId }) {
   }, [router.query]);
 
   return (
-    <>
-      <Script
-        id="Adsense"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
-        crossorigin="anonymous"
-      />
-    </>
+    <Script
+      key={adId}
+      ref={adsLoaded}
+      id={adId}
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
+      crossorigin="anonymous"
+    />
+
     /*<div
       className="googleAd-container flex items-center justify-center border rounded-md"
       style={{ maxWidth: '282px', maxHeight: '282px' }}
