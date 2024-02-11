@@ -41,7 +41,12 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang="fr">
-        <Adsense />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
+          crossOrigin="anonymous"
+        ></script>
+
         <Script
           id="Gtag"
           strategy="lazyOnload"

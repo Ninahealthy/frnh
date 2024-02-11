@@ -1,22 +1,25 @@
 "use client";
-import { useRouter } from "next/navigation"; // Use   "next/navigation" instead of "next/router"
+import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import Script from "next/script";
 
-export default function LoadAd() {
+export default function GoogleAdPcItem() {
   const router = useRouter();
-  //const scrp =
 
   useEffect(() => {
     const loadAd = () => {
-      // Use the "strategy" prop to load the script only once
+      // Execute the script with the beforeInteractive strategy and the onLoad callback
       <Script
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
         crossorigin="anonymous"
+        onLoad={() => {
+          // Execute the loadAd function after the script is loaded
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        }}
       />;
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
     };
 
+    // Execute the loadAd function if router.query is truthy
     if (router.query) {
       loadAd();
     }
