@@ -1,5 +1,47 @@
-"use client";
+/*"use client";
+
+import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+
+export default function Adsense() {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Load the script when the page mounts
+    let script = document.createElement("script");
+    script.src =
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
+
+    // Load the script when the route changes
+    const handleRouteChange = () => {
+      // Load the same script
+      script = document.createElement("script");
+      script.src =
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778";
+      script.async = true;
+      script.crossOrigin = "anonymous";
+      document.head.appendChild(script);
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+  }, []);
+
+  return (
+    <>
+      <head>
+        <script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
+          crossOrigin="anonymous"
+        ></script>
+      </head>
+    </>
+  );
+}
+
+/*import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import Script from "next/script";
 
@@ -25,5 +67,4 @@ export default function GoogleAdPcItem() {
     }
   }, [router.query]);
 
-  return <>{/* No need to repeat the script tag here */}</>;
-}
+  return <>{/* No need to repeat the script tag here */
