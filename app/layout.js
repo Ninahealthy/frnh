@@ -33,7 +33,7 @@ function ReloadScript(scriptSrc) {
     return () => {
       newScript.remove();
     };
-  }, [router.asPath]); // Re-run the effect when the route changes
+  }, [router.asPath, scriptSrc]); // Re-run the effect when the route changes
 }
 
 const inter = Inter({ subsets: ["latin"] });
