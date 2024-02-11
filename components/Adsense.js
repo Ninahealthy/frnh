@@ -3,22 +3,26 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import Script from "next/script";
 
-function GoogleAdPcItem() {
+export default function GoogleAdPcItem() {
   const router = useRouter();
-  const adsLoaded = useRef(false);
+  //const adsLoaded = useRef(false);
+
+  const loadAd = () => {
+    if (typeof window !== "undefined" && window.adsbygoogle) {
+      window.adsbygoogle = window.adsbygoogle || [];
+      window.adsbygoogle.push({});
+      //adsLoaded.current = true;
+    }
+  };
 
   useEffect(() => {
-    const loadAd = () => {
-      if (typeof window !== "undefined" && window.adsbygoogle) {
-        window.adsbygoogle = window.adsbygoogle || [];
-        window.adsbygoogle.push({});
-        adsLoaded.current = true;
-      }
-    };
-
-    if (router.query && !adsLoaded.current) {
-      setTimeout(loadAd, 100);
+    if (router.query) {
+      loadAd();
     }
+
+    /*if (router.query && !adsLoaded.current) {
+      setTimeout(loadAd, 100);
+    }*/
   }, [router.query]);
 
   return (
@@ -47,8 +51,6 @@ function GoogleAdPcItem() {
     </>
   );
 }
-
-export default GoogleAdPcItem;
 
 /*import Script from "next/script";
 export default function Adsense() {
