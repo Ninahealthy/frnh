@@ -5,6 +5,7 @@ import young from "/public/young-woman.png";
 import curly from "/public/curly-hair.jpg";
 import shampo from "/public/shampoo.jpg";
 import stylo from "/public/stylos-blanchiment.jpg";
+import Link from "next/link";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -13,7 +14,7 @@ export default function Beauty() {
     <>
       <group className={Styles.group}>
         <item className={Styles.item}>
-          <a href="/Beauty/meilleurs-stylos-de-blanchiment">
+          <Link href="/Beauty/meilleurs-stylos-de-blanchiment">
             <card className={Styles.card}>
               <Image
                 src={stylo}
@@ -30,10 +31,10 @@ export default function Beauty() {
                 <br />
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
-          <a href="/Beauty/meilleurs-shampoings-clarifiants">
+          <Link href="/Beauty/meilleurs-shampoings-clarifiants">
             <card className={Styles.card}>
               <Image
                 src={shampo}
@@ -53,10 +54,10 @@ export default function Beauty() {
                 <br />
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
-          <a href="/Beauty/meilleurs-produits-pour-cheveux-boucles">
+          <Link href="/Beauty/meilleurs-produits-pour-cheveux-boucles">
             <card className={Styles.card}>
               <Image
                 src={curly}
@@ -76,10 +77,10 @@ export default function Beauty() {
                 <br />
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
-          <a href="/Beauty/marques-de-maquillage-clean">
+          <Link href="/Beauty/marques-de-maquillage-clean">
             <card className={Styles.card}>
               <Image
                 src={makeup}
@@ -103,10 +104,10 @@ export default function Beauty() {
                 <br />
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
-          <a href="/Beauty/secrets-des-femmes-qui-restent-jeunes">
+          <Link href="/Beauty/secrets-des-femmes-qui-restent-jeunes">
             <card className={Styles.card}>
               <Image
                 src={young}
@@ -131,7 +132,7 @@ export default function Beauty() {
                 <br />
               </p>
             </card>
-          </a>
+          </Link>
         </item>
       </group>
       <group className={Styles.group}></group>

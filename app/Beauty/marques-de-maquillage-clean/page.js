@@ -1,5 +1,4 @@
-import Adunit from "@/components/Adunit";
-import Adunit1 from "@/components/Adunit1";
+import Ad from "@/components/Ad";
 import AuthorIcon from "@/components/AuthorIcon";
 import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
@@ -10,6 +9,12 @@ export const metadata = {
   title: "Beauté naturelle: 4 marques de maquillage propres à shopper",
   description:
     "Découvrez 4 marques de maquillage propres et éthiques qui vont sublimer votre beauté naturelle sans compromettre la qualité ou la sécurité. Des produits innovants et respectueux de la peau et de l’environnement à essayer absolument!",
+
+  /*script: {
+    async: true,
+    crossOrigin: "anonymous",
+    src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778",
+  },*/
 };
 
 export default function Home() {
@@ -18,7 +23,7 @@ export default function Home() {
       <AuthorIcon />
       <article>
         <h1>Beauté naturelle: 4 marques de maquillage propres à shopper</h1>
-        <Adunit1 />
+        <Ad slot="2549748890" adformat="auto" responsive="true" />
         <p>
           Bonjour! Vous êtes à la recherche de marques de maquillage qui
           embellissent votre beauté naturelle sans compromettre la qualité ou la
@@ -40,7 +45,7 @@ export default function Home() {
           best-sellers sont le rouge à lèvres Weightless Lip Color, le fond de
           teint Tinted Face Oil et le blush crème Color & Light.
         </p>
-        <Adunit />
+        <Ad slot="4949230260" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>2 • Ilia Beauty</em>
@@ -55,7 +60,7 @@ export default function Home() {
           baume teinté Multi-Stick et le sérum teinté Super Serum Skin Tint SPF
           401.
         </p>
-        <Adunit1 />
+        <Ad slot="2481292712" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>3 • Kjaer Weis</em>
@@ -70,7 +75,7 @@ export default function Home() {
           crème Cream Eye Shadow et le rouge à lèvres mat Matte Naturally
           Lipstick.
         </p>
-        <Adunit />
+        <Ad slot="9409352518" adformat="auto" responsive="true" />
         <p>
           <strong>
             <em>4 • Florence By Mills</em>

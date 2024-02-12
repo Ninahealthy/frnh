@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Script from "next/script";
 import Author from "@/components/Author";
 import Consent from "@/components/Consent";
-import AdsLoad from "@/components/AdsLoad";
+import ReloadScript from "@/components/AdsLoad";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,8 +40,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
+      <ReloadScript />
       <html lang="fr">
-        <AdsLoad />
         <head></head>
         <Script
           id="Gtag"

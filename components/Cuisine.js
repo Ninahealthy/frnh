@@ -4,6 +4,7 @@ import flocon from "/public//flocons-d'avoine-cuits-au-four.webp";
 import cookie from "/public/cookies.webp";
 import juicers from "/public/juicers.jpg";
 import coffee from "/public/coffee-machines.jpg";
+import Link from "next/link";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -12,7 +13,7 @@ export default function Cuisine() {
     <>
       <group className={Styles.group}>
         <item className={Styles.item}>
-          <a href="/Cuisine/les-meilleures-machines-a-cafe-nespresso-en-2023">
+          <Link href="/Cuisine/les-meilleures-machines-a-cafe-nespresso-en-2023">
             <card className={Styles.card}>
               <Image
                 src={coffee}
@@ -30,10 +31,10 @@ export default function Cuisine() {
                 </strong>
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
-          <a href="/Cuisine/meilleurs-extracteurs-de-jus-pour-faire-des-boissons-nutritives">
+          <Link href="/Cuisine/meilleurs-extracteurs-de-jus-pour-faire-des-boissons-nutritives">
             <card className={Styles.card}>
               <Image
                 src={juicers}
@@ -51,10 +52,10 @@ export default function Cuisine() {
                 </strong>
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
-          <a href="/Cuisine/flocon-avoine-au-four-healthy">
+          <Link href="/Cuisine/flocon-avoine-au-four-healthy">
             <card className={Styles.card}>
               <Image
                 src={flocon}
@@ -76,7 +77,7 @@ export default function Cuisine() {
                 <br />
               </p>
             </card>
-          </a>
+          </Link>
         </item>
         <item className={Styles.item}>
           <a href="/Cuisine/cookies-healthy">
