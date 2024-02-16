@@ -13,8 +13,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
+  charSet: "utf-8",
+  //maximumScale: 1,
+  //userScalable: false,
   // Also supported by less commonly used
   // interactiveWidget: 'resizes-visual',
 };
@@ -34,15 +35,20 @@ export const metadata = {
     },
   },
 
-  modified: "02/09/2024",
+  published_time: "2024-01-11T11:35:00+07:00",
 };
 
 export default function RootLayout({ children }) {
   return (
     <>
-      <ReloadScript />
       <html lang="fr">
-        <head></head>
+        <head>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
+            crossOrigin="anonymous"
+          ></script>
+        </head>
         <Script
           id="Gtag"
           strategy="lazyOnload"

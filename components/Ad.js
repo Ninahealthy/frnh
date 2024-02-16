@@ -3,8 +3,8 @@
 import { useEffect } from "react";
 import Script from "next/script";
 export default function Ad({ slot, adformat, responsive }) {
-  /*useEffect(() => {
-    if (typeof window !== "undefined" && window.adsbygoogle) {
+  // useEffect(() => {
+  /*if (typeof window !== "undefined" && window.adsbygoogle)*/ /*{
       window.adsbygoogle = window.adsbygoogle || [];
       window.adsbygoogle.push({});
     }
