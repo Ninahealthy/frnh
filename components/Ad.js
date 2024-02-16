@@ -4,18 +4,20 @@ import { useEffect } from "react";
 import Script from "next/script";
 export default function Ad({ slot, adformat, responsive }) {
   useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
+  /*useEffect(() => {
     if (typeof window !== "undefined" && window.adsbygoogle) {
       window.adsbygoogle = window.adsbygoogle || [];
       window.adsbygoogle.push({});
     }
-  }, []);
+  }, []);*/
 
   return (
     <>
       <adunit>
         <ad>
           <Script
-            id="Ad"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
             crossOrigin="anonymous"
           ></Script>
