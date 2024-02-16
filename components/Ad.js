@@ -14,21 +14,11 @@ export default function Ad({ slot, adformat, responsive }) {
     <>
       <adunit>
         <ad>
-          <Script
-            id="Ad"
+          <script
+            async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
             crossOrigin="anonymous"
-          />
-
-          <Script
-            id="Ad"
-            dangerouslySetInnerHTML={{
-              __html: `
-              (adsbygoogle = window.adsbygoogle || []).push({});
-          `,
-            }}
-          />
-
+          ></script>
           <ins
             className="adsbygoogle"
             style={{ display: "block" }}
@@ -37,6 +27,7 @@ export default function Ad({ slot, adformat, responsive }) {
             data-ad-format={adformat}
             data-full-width-responsive={responsive}
           ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </ad>
       </adunit>
     </>
