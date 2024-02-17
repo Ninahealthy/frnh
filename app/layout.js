@@ -43,10 +43,10 @@ export default function RootLayout({ children }) {
     <>
       <html lang="fr">
         <head>
-          <script
-            async
+          <Script
+            strategy="beforeInteractive"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
-          ></script>
+          ></Script>
         </head>
         <Script
           id="Gtag"
