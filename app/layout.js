@@ -44,7 +44,6 @@ export default function RootLayout({ children }) {
       <html lang="fr">
         <head>
           <Script
-            strategy="beforeInteractive"
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2087636695455778"
             crossOrigin="anonymous"
           ></Script>
