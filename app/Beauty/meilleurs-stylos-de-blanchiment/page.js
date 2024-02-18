@@ -7,7 +7,7 @@ import Nutrition from "@/components/Cuisine";
 import Cuisine from "@/components/Cuisine";
 
 export const metadata = {
-  titile: "7 meilleurs stylos de blanchiment des dents de 2023",
+  title: "7 meilleurs stylos de blanchiment des dents de 2023",
   description:
     " Découvrez les 7 meilleurs stylos de blanchiment des dents de 2023 dans cet article. Je vous donne mon avis sur chaque produit, ses avantages et ses inconvénients, et comment l’utiliser pour obtenir des résultats rapides et durables.",
 };
