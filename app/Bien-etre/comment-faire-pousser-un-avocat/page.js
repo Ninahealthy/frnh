@@ -41,7 +41,6 @@ export default function Avocat() {
         </p>
         <Ad slot="4949230260" adformat="auto" responsive="true" />
         <p>
-          <br></br>
           <strong>
             <em> ✨ 3 cure-dents (ou des allumettes, les plus rebelles)</em>
           </strong>

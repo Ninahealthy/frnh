@@ -25,10 +25,7 @@ export default function Bienetre() {
               />
               <p>
                 <strong>
-                  <em>
-                    Astuces Simples Et Naturelles Pour Purifier l’air de sa
-                    Maison
-                  </em>
+                  <em>Comment Faire Pousser Un Avocat</em>
                 </strong>
               </p>
             </card>
