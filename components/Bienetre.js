@@ -5,6 +5,7 @@ import jardin from "/public/idees-jardin.jpg";
 import terrasse from "/public/terrasse.jpg";
 import purifier from "/public/air-purifier.jpg";
 import SMART from "/public/SMART-goals.jpg";
+import avocat from "/public/avocat.jpeg";
 
 const responsive = { width: "100%", height: "auto" };
 
@@ -12,6 +13,27 @@ export default function Bienetre() {
   return (
     <>
       <group className={Styles.group}>
+        <item className={Styles.item}>
+          <a href="/Bien-etre/comment-faire-pousser-un-avocat">
+            <card className={Styles.card}>
+              <Image
+                src={avocat}
+                alt="comment faire pousser un avocat"
+                style={responsive}
+                priority
+                sizes="100vw"
+              />
+              <p>
+                <strong>
+                  <em>
+                    Astuces Simples Et Naturelles Pour Purifier l’air de sa
+                    Maison
+                  </em>
+                </strong>
+              </p>
+            </card>
+          </a>
+        </item>
         <item className={Styles.item}>
           <a href="/Bien-etre/astuces-naturelles-pour-purifier-air-de-sa-maison">
             <card className={Styles.card}>
