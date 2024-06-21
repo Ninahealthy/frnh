@@ -2,6 +2,7 @@ import Beauty from "@/components/Beauty";
 import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
+import HomeComponent from "@/components/Home";
 
 export const metadata = {
   title: "Home",
@@ -11,12 +12,12 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <actualites>
-        <Beauty />
-        <Bienetre />
-        <Nutrition />
-        <Fitness />
-      </actualites>
+      <HomeComponent />
+      <br></br>
+      <Beauty />
+      <Bienetre />
+      <Nutrition />
+      <Fitness />
     </>
   );
 }

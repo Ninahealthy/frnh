@@ -33,7 +33,7 @@ export default function Header() {
                 onClick={openMenu}
                 href="/"
               >
-                <em>Actualités</em>
+                <em>Home</em>
               </a>
             </li>
             <li className={styles.navitem}>
