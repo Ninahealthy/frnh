@@ -71,7 +71,6 @@ export default function RootLayout({ children }) {
           {children}
           <Author />
           <Footer />
-          <Consent />
         </body>
       </html>
     </>
