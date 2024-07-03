@@ -5,6 +5,7 @@ import Bienetre from "@/components/Bienetre";
 import Fitness from "@/components/Fitness";
 import Nutrition from "@/components/Cuisine";
 import Cuisine from "@/components/Cuisine";
+import DisqusComments from "@/components/DisqusComments";
 
 export const metadata = {
   title: "7 meilleurs stylos de blanchiment des dents de 2023",
@@ -191,6 +192,12 @@ export default function Stylos() {
           </a>
         </p>
       </article>
+
+      <DisqusComments
+        url={`https://fr.ninahealthy.com/Beauty/meilleurs-stylos-de-blanchiment`}
+        identifier="meilleurs-stylos-de-blanchiment"
+        title="7 meilleurs stylos de blanchiment des dents de 2023"
+      />
       <Beauty />
       <Bienetre />
       <Fitness />

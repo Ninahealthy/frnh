@@ -21,6 +21,8 @@ export const viewport = {
 };
 
 export const metadata = {
+  title: "NH💚",
+  description: "",
   robots: {
     index: true,
     follow: true,
@@ -35,7 +37,7 @@ export const metadata = {
     },
   },
 
-  published_time: "2024-01-11T11:35:00+07:00",
+  published_time: "2024-07-01T11:35:00+07:00",
 };
 
 export default function RootLayout({ children }) {
