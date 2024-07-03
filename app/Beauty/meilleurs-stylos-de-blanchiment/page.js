@@ -191,13 +191,13 @@ export default function Stylos() {
             <strong>• The 12 Best Teeth Whitening Pens in 2023 </strong>
           </a>
         </p>
+        <DisqusComments
+          url={`https://fr.ninahealthy.com/Beauty/meilleurs-stylos-de-blanchiment`}
+          identifier="meilleurs-stylos-de-blanchiment"
+          title="7 meilleurs stylos de blanchiment des dents de 2023"
+        />
       </article>
 
-      <DisqusComments
-        url={`https://fr.ninahealthy.com/Beauty/meilleurs-stylos-de-blanchiment`}
-        identifier="meilleurs-stylos-de-blanchiment"
-        title="7 meilleurs stylos de blanchiment des dents de 2023"
-      />
       <Beauty />
       <Bienetre />
       <Fitness />
