@@ -1,6 +1,7 @@
 "use client";
 
 import { DiscussionEmbed } from "disqus-react";
+import styles from "@/components/disqus.module.css";
 
 const DisqusComments = ({ url, identifier, title }) => {
   const disqusConfig = {
@@ -10,9 +11,11 @@ const DisqusComments = ({ url, identifier, title }) => {
   };
 
   return (
-    <div>
-      <DiscussionEmbed shortname="frnh" config={disqusConfig} />
-    </div>
+    <disqus className={styles.disqus}>
+      <div className={styles.disq}>
+        <DiscussionEmbed shortname="frnh" config={disqusConfig} />
+      </div>
+    </disqus>
   );
 };
 
