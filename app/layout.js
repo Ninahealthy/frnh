@@ -7,6 +7,7 @@ import Script from "next/script";
 import Author from "@/components/Author";
 import Consent from "@/components/Consent";
 import ReloadScript from "@/components/AdsLoad";
+import ResponsiveNavbar from "@/components/ResponsiveNavbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -69,7 +70,7 @@ export default function RootLayout({ children }) {
           }}
         />
         <body className={inter.className}>
-          <Header />
+          <ResponsiveNavbar />
           {children}
           <Author />
           <Footer />
