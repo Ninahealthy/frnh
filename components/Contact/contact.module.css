@@ -1,13 +1,10 @@
-
 .form {
-
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .card {
-
   width: 95vw;
   padding: 1rem;
   border: 2px solid rgb(3, 3, 3);
@@ -18,14 +15,12 @@
 }
 
 .label {
-
   font-weight: bold;
 }
 
 .input[type="text"],
 .input[type="email"],
 .textarea {
-  
   width: 90vw;
   padding: 1rem;
   border: 1px solid rgb(3, 3, 3);
@@ -33,7 +28,6 @@
   box-sizing: border-box;
   margin: 1rem;
   box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
-
 }
 
 .textarea {
@@ -62,12 +56,13 @@
   border-radius: 15px;
   cursor: pointer;
   box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
-
 }
 
 .status {
-  margin-top: 20px;
-  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  font-size: 2rem;
   color: green;
 }
 
@@ -78,28 +73,9 @@
   .input[type="text"],
   .input[type="email"],
   .textarea {
-width: 40vw;
+    width: 40vw;
   }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /*
 .container {
