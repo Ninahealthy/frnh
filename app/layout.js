@@ -8,6 +8,7 @@ import Author from "@/components/Author";
 import Consent from "@/components/Consent";
 import ReloadScript from "@/components/AdsLoad";
 import ResponsiveNavbar from "@/components/ResponsiveNavbar";
+import Subscribe from "@/components/Subscribe";
 
 const inter = Inter({ subsets: ["latin"] });
 
