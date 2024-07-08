@@ -2,15 +2,15 @@
 
 import { useState } from "react";
 import Styles from "./Search.module.css";
+
 export default function SearchForm() {
   const [searchValue, setSearchValue] = useState("");
-  const [searchValuee, setSearchValuee] = useState("");
 
   function handleSearch(e) {
     e.preventDefault();
-    console.log(searchValue, searchValuee);
+    console.log(searchValue);
     // Open the search results in a new tab
-    window.open(`/search?q=${searchValue} ${searchValuee}`);
+    window.open(`/search?q=${searchValue}`);
   }
 
   return (
@@ -20,19 +20,13 @@ export default function SearchForm() {
         <input
           className={Styles.input}
           type="text"
-          placeholder="Comment Puis-Je Vous Aider ?"
+          placeholder="Search for products..."
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
         />
-        <input
-          className={Styles.input}
-          type="text"
-          placeholder="Comment Puis-Je Vous Aider ?"
-          value={searchValuee}
-          onChange={(e) => setSearchValuee(e.target.value)}
-        />
+
         <button className={Styles.button} type="submit" onClick={handleSearch}>
-          Help !
+          Search
         </button>
       </form>
     </div>
