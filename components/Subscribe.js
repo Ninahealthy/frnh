@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "./contact/contact.module.css";
+import styles from "./Contact/cont.module.css";
 
 export default function Subscribe() {
   // state variables for the form inputs
