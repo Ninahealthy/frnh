@@ -20,7 +20,7 @@ export default function SearchForm() {
         <input
           className={Styles.input}
           type="text"
-          placeholder="Search for products..."
+          placeholder="Search..."
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
         />
