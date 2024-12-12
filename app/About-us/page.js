@@ -6,7 +6,7 @@ export const metadata = {
 export default function About() {
   return (
     <>
-      <h1>About Me</h1>
+      <h1>About Us</h1>
       <article>
         <p>
           fr.ninahealthy.com est un girl-inspired blog Owned by ADEL BENDAMBRI
