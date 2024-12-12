@@ -9,13 +9,14 @@ export default function About() {
       <h1>About Me</h1>
       <article>
         <p>
-          ninahealthy.com est un girl-inspired blog qui fournit des informations
-          de bon goût sur la mode, comme des idées de tenues, des conseils de
-          beauté et des soins personnels, afin d’encourager les jeunes adultes
-          et les femmes à devenir leur meilleur soi en améliorant leur style et
-          leur confiance en soi. <br></br>J’ai commencé ce blog en 2020, une
-          adolescente qui s’était totalement plongée dans ce nouveau et
-          merveilleux monde du blogging et de la beauté.<br></br>
+          fr.ninahealthy.com est un girl-inspired blog Owned by ADEL BENDAMBRI
+          and Nina, le blog fournit des informations de bon goût sur la mode,
+          comme des idées de tenues, des conseils de beauté et des soins
+          personnels, afin d’encourager les jeunes adultes et les femmes à
+          devenir leur meilleur soi en améliorant leur style et leur confiance
+          en soi. <br></br>J’ai commencé ce blog en 2020, une adolescente qui
+          s’était totalement plongée dans ce nouveau et merveilleux monde du
+          blogging et de la beauté.<br></br>
           Ici, j’écris sur des choses que nous pouvons tous trouver adaptées et
           bénéfiques dans notre propre vie quotidienne. Les choses dont j’écris
           sont généralement légères et agréables à lire. J’aime écrire sur la
