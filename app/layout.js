@@ -74,7 +74,6 @@ export default function RootLayout({ children }) {
           <ResponsiveNavbar />
           <SearchForm />
           {children}
-          <Author />
           <Footer />
         </body>
       </html>

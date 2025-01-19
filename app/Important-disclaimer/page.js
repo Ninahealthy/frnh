@@ -10,7 +10,7 @@ export default function Important() {
       <article>
         <h1>IMPORTANT DISCLAIMER</h1>
         <p>
-          ninahealthy.com is committed to keeping this website up to date and
+          fr.ninahealthy.com is committed to keeping this website up to date and
           accurate.<br></br> Should you nevertheless encounter anything that is
           incorrect or out of date, we would appreciate it if you could let us
           know.<br></br> Please indicate where on the website you read the
@@ -23,10 +23,29 @@ export default function Important() {
             </strong>
           </Link>
         </p>
-        <h2>Disclaimers for ninahealthy.com</h2>
+        <h2>Disclaimers for fr.ninahealthy.com</h2>
         <p>
-          All the information on this website “ninahealthy.com” is published in
-          good faith and for general information purpose only.<br></br>{" "}
+          This site offers health, fitness and nutritional information and is
+          designed for general knowledge and educational purposes only. You
+          should not rely on this information as a substitute for, nor does it
+          replace professional medical advice, diagnosis, or treatment. If you
+          have any concerns or questions about your health, you should always
+          consult with a physician or other healthcare professional. Do not
+          disregard, avoid or delay obtaining medical or health related advice
+          from your health-care professional because of something you may have
+          read on this site. The use of any information provided on this site is
+          solely at your own risk.
+        </p>
+        <p>
+          <br></br>Developments in medical research may impact the health,
+          fitness and nutritional advice that appears here. No assurance can be
+          given that the advice contained in this site will always include the
+          most recent findings or developments with respect to the particular
+          material.
+        </p>
+        <p>
+          All the information on this website “fr.ninahealthy.com” is published
+          in good faith and for general information purpose only.<br></br>{" "}
           ninahealthy.com does not make any warranties about the completeness,
           reliability and accuracy of this information. Any action you take upon
           the information you find on this website (ninahealthy.com), is
