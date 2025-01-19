@@ -9,7 +9,7 @@ export default function About() {
       <h1>About Me</h1>
       <article>
         <p>
-          ninahealthy.com est un girl-inspired blog qui fournit des informations
+          fr.ninahealthy.com est un girl-inspired blog qui fournit des informations
           de bon goût sur la mode, comme des idées de tenues, des conseils de
           beauté et des soins personnels, afin d’encourager les jeunes adultes
           et les femmes à devenir leur meilleur soi en améliorant leur style et
